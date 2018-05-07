@@ -1,0 +1,19 @@
+{
+  "name": "hera",
+  "version": "1.0.0",
+  "description": "Hera web app helping newly engaged couples find their best vendors at best price.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarwaBj/hera.git"
+  },
+  "author": ["NoureldeanSaed", "MarwaBJ"],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarwaBj/hera/issues"
+  },
+  "homepage": "https://github.com/MarwaBj/hera#readme"
+}
