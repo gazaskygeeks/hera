@@ -4,16 +4,46 @@
   "description": "Hera web app helping newly engaged couples find their best vendors at best price.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "",
+    "api:watch": "nodemon ./src/server/server.js",
+    "css:watch": "node-sass -w ./src/client/styles/sass/ -o ./src/client/styles/css/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MarwaBj/hera.git"
   },
-  "author": ["NoureldeanSaed", "MarwaBJ"],
+  "author": [
+    "NoureldeanSaed",
+    "MarwaBJ"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MarwaBj/hera/issues"
   },
-  "homepage": "https://github.com/MarwaBj/hera#readme"
+  "homepage": "https://github.com/MarwaBj/hera#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.4",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "env2": "^2.2.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.2",
+    "react": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "webpack": "^4.7.0"
+  }
 }
