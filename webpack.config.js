@@ -1,24 +1,25 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/client/index.js',
+  entry: './src/client/index.jsx',
+  mode: 'development',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'public/'),
+    path: path.resolve(__dirname, 'public/')
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx']
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
-        use: 'babel-loader',
+        use: 'babel-loader'
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.(png|jpg|gif|ico)$/,
@@ -27,16 +28,16 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '[path][name].[ext]',
-              context: path.resolve(__dirname, 'src/client/'),
-            },
-          },
-        ],
-      },
-    ],
+              context: path.resolve(__dirname, 'src/client/')
+            }
+          }
+        ]
+      }
+    ]
   },
   devtool: 'source-map',
   devServer: {
-    historyApiFallback: true,
+    historyApiFallback: true
   },
-  watch: false,
+  watch: false
 };

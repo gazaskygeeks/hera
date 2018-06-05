@@ -15,4 +15,8 @@ app.use(express.static(path.join(__dirname, '..', '..', 'public')));
 
 app.use(controllers);
 
+app.use((req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'public', 'index.html'));
+});
+
 module.exports = app;
