@@ -1,6 +1,6 @@
-const express = require('express');
+const Router = require('express').Router();
 
-const router = express.Router();
+const getHomePage = require('./getHomePage');
 
-
-module.exports = router;
+module.exports = Router
+  .get('/', getHomePage);

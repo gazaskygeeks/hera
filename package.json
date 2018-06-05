@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
+    "css:watch": "node-sass -w ./src/client/styles/sass/ -o ./src/client/styles/css/",
     "src:start": "node ./src/server/server.js",
     "src:watch": "nodemon ./src/server/server.js",
     "web:build": "webpack",
@@ -16,7 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/MarwaBj/hera.git"
   },
-  "author": "NoureldeanSaed, MarwaBJ",
+  "author": [
+    "NoureldeanSaed",
+    "MarwaBJ"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MarwaBj/hera/issues"
@@ -24,14 +28,12 @@
   "homepage": "https://github.com/MarwaBj/hera#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2016": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
@@ -64,6 +66,17 @@
     "supertest": "^3.1.0",
     "tap-spec": "^4.1.2",
     "tape": "^4.9.0",
-    "webpack-cli": "^3.0.2"
+    "webpack-cli": "^3.0.2",
+     "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.4",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0"
   }
 }
