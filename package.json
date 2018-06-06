@@ -5,15 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "node ./src/server/server.js",
-    "css:watch": "node-sass -w ./src/client/styles/sass/ -o ./src/client/styles/css/",
-    "src:start": "node ./src/server/server.js",
-    "src:watch": "nodemon ./src/server/server.js",
-    "heroku-postbuild": "webpack -p --config webpack.config.js --progress",
-    "web:build": "webpack",
-    "web:watch": "webpack --watch",
-    "dev:start": "node --exec babel-node ./src/server/server.js",
-    "dev:watch": "nodemon --exec babel-node ./src/server/server.js"
+    "start": "node ./src/server/server.js"
   },
   "repository": {
     "type": "git",
