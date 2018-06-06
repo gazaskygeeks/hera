@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "node --exec babel-node ./src/server/server.js",
+    "start": "node ./src/server/server.js",
     "css:watch": "node-sass -w ./src/client/styles/sass/ -o ./src/client/styles/css/",
     "src:start": "node ./src/server/server.js",
     "src:watch": "nodemon ./src/server/server.js",
