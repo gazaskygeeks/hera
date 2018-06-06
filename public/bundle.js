@@ -117,7 +117,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".navbar {\n  top: 0;\n  max-width: 500px;\n  width: 25%;\n  min-width: 320px;\n  height: 100vh;\n  font-size: 1.5em;\n  color: #FFFFFF;\n  position: fixed;\n  background: #FF6B98;\n}\n.navbar__swapper {\n  position: fixed;\n  top: 10%;\n  left: calc(100vw - 40px);\n  color: #00bfff;\n  font-size: 40px;\n  transform: rotate(90deg);\n  transition: all .5s;\n}\n.navbar__swapper.active {\n  left: 20px;\n  transform: rotate(0deg);\n  transition: all .5s;\n}\n.navbar__list {\n  padding: 4vh 0;\n}\n.navbar__list__search {\n  display: flex;\n  font-size: 2em;\n  padding-bottom: 15px;\n  justify-content: space-evenly;\n}\n.navbar__list__search input {\n  background-color: rgba(0, 0, 0, 0);\n  padding: 5px 10px;\n  border: 1px solid #FFFFFF;\n  border-radius: 15px;\n  outline: none;\n}\n.navbar__list__search input::placeholder {\n  color: #FFFFFF;\n  font-size: 18px;\n}\n.navbar__list__item {\n  width: calc(100% - 40px);\n  padding: 10px 20px;\n  margin: 10px 0;\n  background-color: rgba(0, 0, 0, 0);\n  transition: background-color 0.5s;\n}\n.navbar__list__item .fas {\n  width: 50px;\n}\n.navbar__list__item:hover {\n  background-color: #00bfff;\n  transition: background-color 0.5s;\n}\n.navbar.hidden {\n  left: -500px;\n  transition: left .5s;\n}\n.navbar:not(.hidden) {\n  left: 0;\n  transition: left .5s;\n}\n", ""]);
+exports.push([module.i, ".navbar {\n  top: 0;\n  max-width: 500px;\n  width: 25%;\n  min-width: 320px;\n  height: 100vh;\n  font-size: 1.5em;\n  color: #FFFFFF;\n  position: fixed;\n  background: #FF6B98;\n}\n.navbar__swapper {\n  position: fixed;\n  top: 10%;\n  left: 20px;\n  color: #00bfff;\n  font-size: 40px;\n  transform: rotate(0deg);\n  transition: all .5s;\n}\n.navbar__swapper.active {\n  left: calc(100vw - 40px);\n  transform: rotate(90deg);\n  transition: all .5s;\n}\n.navbar__list {\n  padding: 12vh 0;\n}\n.navbar__list__search {\n  display: flex;\n  font-size: 2em;\n  padding-bottom: 15px;\n  justify-content: space-evenly;\n}\n.navbar__list__search input {\n  background-color: rgba(0, 0, 0, 0);\n  padding: 5px 10px;\n  border: 1px solid #FFFFFF;\n  border-radius: 15px;\n  outline: none;\n}\n.navbar__list__search input::placeholder {\n  color: #FFFFFF;\n  font-size: 18px;\n}\n.navbar__list__item {\n  width: calc(100% - 40px);\n  padding: 10px 20px;\n  margin: 10px 0;\n  background-color: rgba(0, 0, 0, 0);\n  transition: background-color 0.5s;\n}\n.navbar__list__item .fas {\n  width: 50px;\n}\n.navbar__list__item:hover {\n  background-color: #00bfff;\n  transition: background-color 0.5s;\n}\n.navbar.hidden {\n  left: -500px;\n  transition: left .5s;\n}\n.navbar:not(.hidden) {\n  left: 0;\n  transition: left .5s;\n}\n", ""]);
 
 // exports
 
@@ -28190,7 +28190,6 @@ var Navbar = function (_React$Component) {
   _createClass(Navbar, [{
     key: 'handleNavbar',
     value: function handleNavbar() {
-      console.log(this.props);
       var _props = this.props,
           isCollapsed = _props.isCollapsed,
           navbarCollapse = _props.navbarCollapse,
@@ -28201,13 +28200,12 @@ var Navbar = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      console.log('sdfsa', this.props);
       var isCollapsed = this.props.isCollapsed;
 
       return _react2.default.createElement(
         'div',
         { className: "navbar" + (isCollapsed ? ' hidden' : '') },
-        _react2.default.createElement('i', { className: "fas fa-circle-notch navbar__swapper" + (isCollapsed ? ' active' : ''), onClick: this.handleNavbar }),
+        _react2.default.createElement('i', { className: "fas fa-circle-notch navbar__swapper" + (isCollapsed ? '' : ' active'), onClick: this.handleNavbar }),
         _react2.default.createElement(
           'ul',
           { className: 'navbar__list' },
