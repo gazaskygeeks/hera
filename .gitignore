@@ -60,3 +60,4 @@ typings/
 .config.env
 
 src/client/styles/sass/
+public/bundle*
