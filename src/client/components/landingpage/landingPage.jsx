@@ -11,7 +11,8 @@ class LandingPage extends React.Component {
   render() {
     return (
       <div className="landing-page">
-        <img src="/assets/roses&rings.jpg" alt="background"/>
+        <img src="/assets/roses&rings-vi.jpg" alt="background"/>
+        <img src="/assets/roses&rings-ho.jpg" alt="background"/>
         <div className="landing-page__logo-holder">
           <img src="/assets/hera-logo.svg" alt="hera-logo"/>
         </div>
