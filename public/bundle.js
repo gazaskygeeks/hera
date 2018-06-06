@@ -86,6 +86,25 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/App.less":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/App.less ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "* {\n  padding: 0;\n  margin: 0;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/global/navbar/index.less":
 /*!*************************************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/global/navbar/index.less ***!
@@ -98,7 +117,26 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".navbar {\n  top: 0;\n  left: 0;\n  max-width: 500px;\n  width: 25%;\n  min-width: 320px;\n  height: 100vh;\n  font-size: 1.5em;\n  color: #fff;\n  position: fixed;\n  background: #ff6b98;\n  transition: left .5s;\n}\n.navbar__swapper {\n  position: fixed;\n  top: 50%;\n  left: 325px;\n  color: #cacab6;\n  font-size: 40px;\n  transform: rotate(90deg);\n  transition: transform 1s;\n}\n.navbar__swapper.active {\n  transform: rotate(0deg);\n  transition: transform 1s;\n}\n.navbar__list {\n  padding: 4vh 0;\n}\n.navbar__list__search {\n  display: flex;\n  font-size: 2em;\n  padding-bottom: 15px;\n  justify-content: space-evenly;\n}\n.navbar__list__search input {\n  background-color: rgba(0, 0, 0, 0);\n  padding: 5px 10px;\n  border: 1px solid #fff;\n  border-radius: 15px;\n  outline: none;\n}\n.navbar__list__search input::placeholder {\n  color: #fff;\n  font-size: 18px;\n}\n.navbar__list__item {\n  width: calc(100% - 40px);\n  padding: 10px 20px;\n  margin: 10px 0;\n  background-color: #0000;\n  transition: background-color 0.5s;\n}\n.navbar__list__item .fas {\n  width: 50px;\n}\n.navbar__list__item:hover {\n  background-color: #00bfff;\n  transition: background-color 0.5s;\n}\n.navbar.hidden {\n  left: -500px;\n  transition: left .5s;\n}\n", ""]);
+exports.push([module.i, ".navbar {\n  top: 0;\n  max-width: 500px;\n  width: 25%;\n  min-width: 320px;\n  height: 100vh;\n  font-size: 1.5em;\n  color: #FFFFFF;\n  position: fixed;\n  background: #FF6B98;\n}\n.navbar__swapper {\n  position: fixed;\n  top: 50%;\n  left: 325px;\n  color: #CACAB6;\n  font-size: 40px;\n  transform: rotate(90deg);\n  transition: all .5s;\n}\n.navbar__swapper.active {\n  left: 20px;\n  transform: rotate(0deg);\n  transition: all .5s;\n}\n.navbar__list {\n  padding: 4vh 0;\n}\n.navbar__list__search {\n  display: flex;\n  font-size: 2em;\n  padding-bottom: 15px;\n  justify-content: space-evenly;\n}\n.navbar__list__search input {\n  background-color: rgba(0, 0, 0, 0);\n  padding: 5px 10px;\n  border: 1px solid #FFFFFF;\n  border-radius: 15px;\n  outline: none;\n}\n.navbar__list__search input::placeholder {\n  color: #FFFFFF;\n  font-size: 18px;\n}\n.navbar__list__item {\n  width: calc(100% - 40px);\n  padding: 10px 20px;\n  margin: 10px 0;\n  background-color: rgba(0, 0, 0, 0);\n  transition: background-color 0.5s;\n}\n.navbar__list__item .fas {\n  width: 50px;\n}\n.navbar__list__item:hover {\n  background-color: #00bfff;\n  transition: background-color 0.5s;\n}\n.navbar.hidden {\n  left: -500px;\n  transition: left .5s;\n}\n.navbar:not(.hidden) {\n  left: 0;\n  transition: left .5s;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/landingPage.less":
+/*!*****************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/landingPage.less ***!
+  \*****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".landing-page__logo-holder {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n  height: 50px;\n  margin: 0;\n}\n", ""]);
 
 // exports
 
@@ -27992,6 +28030,33 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
+/***/ "./src/client/actions/navbarActions/index.js":
+/*!***************************************************!*\
+  !*** ./src/client/actions/navbarActions/index.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.navbarReveal = exports.navbarCollapse = undefined;
+
+var _actionTypes = __webpack_require__(/*! ../../constants/actionTypes */ "./src/client/constants/actionTypes.js");
+
+var navbarCollapse = exports.navbarCollapse = function navbarCollapse() {
+  return { type: _actionTypes.NAVBAR_COLLAPSE, isCollapsed: true };
+};
+
+var navbarReveal = exports.navbarReveal = function navbarReveal() {
+  return { type: _actionTypes.NAVBAR_REVEAL, isCollapsed: false };
+};
+
+/***/ }),
+
 /***/ "./src/client/components/App.jsx":
 /*!***************************************!*\
   !*** ./src/client/components/App.jsx ***!
@@ -28012,9 +28077,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
 
-var _navbar = __webpack_require__(/*! ../components/global/navbar */ "./src/client/components/global/navbar/index.jsx");
+var _navbarContainer = __webpack_require__(/*! ../containers/navbarContainer */ "./src/client/containers/navbarContainer.js");
 
-var _navbar2 = _interopRequireDefault(_navbar);
+var _navbarContainer2 = _interopRequireDefault(_navbarContainer);
 
 var _landingPageContainer = __webpack_require__(/*! ../containers/landingPageContainer */ "./src/client/containers/landingPageContainer.js");
 
@@ -28023,6 +28088,8 @@ var _landingPageContainer2 = _interopRequireDefault(_landingPageContainer);
 var _notFoundPage = __webpack_require__(/*! ../components/notFoundPage */ "./src/client/components/notFoundPage/index.jsx");
 
 var _notFoundPage2 = _interopRequireDefault(_notFoundPage);
+
+__webpack_require__(/*! ./App.less */ "./src/client/components/App.less");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28033,7 +28100,7 @@ var App = function App() {
     _react2.default.createElement(
       'div',
       { className: 'app' },
-      _react2.default.createElement(_navbar2.default, null),
+      _react2.default.createElement(_navbarContainer2.default, null),
       _react2.default.createElement(
         _reactRouterDom.Switch,
         null,
@@ -28045,6 +28112,36 @@ var App = function App() {
 };
 
 exports.default = App;
+
+/***/ }),
+
+/***/ "./src/client/components/App.less":
+/*!****************************************!*\
+  !*** ./src/client/components/App.less ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/less-loader/dist/cjs.js!./App.less */ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/App.less");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
@@ -28062,6 +28159,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
@@ -28070,59 +28169,97 @@ __webpack_require__(/*! ./index.less */ "./src/client/components/global/navbar/i
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Navbar = function Navbar() {
-  return _react2.default.createElement(
-    'div',
-    { className: 'navbar' },
-    _react2.default.createElement('i', { className: 'fas fa-circle-notch navbar__swapper' }),
-    _react2.default.createElement(
-      'ul',
-      { className: 'navbar__list' },
-      _react2.default.createElement(
-        'li',
-        { className: 'navbar__list__search' },
-        _react2.default.createElement('i', { className: 'fas fa-search' }),
-        _react2.default.createElement('input', { type: 'text', placeholder: 'Search...' })
-      ),
-      _react2.default.createElement(
-        'li',
-        { className: 'navbar__list__item' },
-        _react2.default.createElement('i', { className: 'fas fa-truck-loading' }),
-        'Vendors'
-      ),
-      _react2.default.createElement(
-        'li',
-        { className: 'navbar__list__item' },
-        _react2.default.createElement('i', { className: 'fas fa-store' }),
-        'Shop'
-      ),
-      _react2.default.createElement(
-        'li',
-        { className: 'navbar__list__item' },
-        _react2.default.createElement('i', { className: 'fas fa-tasks' }),
-        'Dashboard Plan'
-      ),
-      _react2.default.createElement(
-        'li',
-        { className: 'navbar__list__item' },
-        _react2.default.createElement('i', { className: 'fas fa-headphones' }),
-        'Contact'
-      ),
-      _react2.default.createElement(
-        'li',
-        { className: 'navbar__list__item' },
-        _react2.default.createElement('i', { className: 'fas fa-info-circle' }),
-        'About'
-      ),
-      _react2.default.createElement(
-        'li',
-        { className: 'navbar__list__item' },
-        _react2.default.createElement('i', { className: 'fas fa-door-open' }),
-        'Log Out'
-      )
-    )
-  );
-};
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Navbar = function (_React$Component) {
+  _inherits(Navbar, _React$Component);
+
+  function Navbar() {
+    _classCallCheck(this, Navbar);
+
+    var _this = _possibleConstructorReturn(this, (Navbar.__proto__ || Object.getPrototypeOf(Navbar)).call(this));
+
+    _this.handleNavbar = _this.handleNavbar.bind(_this);
+    return _this;
+  }
+
+  _createClass(Navbar, [{
+    key: 'handleNavbar',
+    value: function handleNavbar() {
+      console.log(this.props);
+      var _props = this.props,
+          isCollapsed = _props.isCollapsed,
+          navbarCollapse = _props.navbarCollapse,
+          navbarReveal = _props.navbarReveal;
+
+      if (isCollapsed) navbarReveal();else navbarCollapse();
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      console.log('sdfsa', this.props);
+      var isCollapsed = this.props.isCollapsed;
+
+      return _react2.default.createElement(
+        'div',
+        { className: "navbar" + (isCollapsed ? ' hidden' : '') },
+        _react2.default.createElement('i', { className: "fas fa-circle-notch navbar__swapper" + (isCollapsed ? ' active' : ''), onClick: this.handleNavbar }),
+        _react2.default.createElement(
+          'ul',
+          { className: 'navbar__list' },
+          _react2.default.createElement(
+            'li',
+            { className: 'navbar__list__search' },
+            _react2.default.createElement('i', { className: 'fas fa-search' }),
+            _react2.default.createElement('input', { type: 'text', placeholder: 'Search...' })
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'navbar__list__item' },
+            _react2.default.createElement('i', { className: 'fas fa-truck-loading' }),
+            'Vendors'
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'navbar__list__item' },
+            _react2.default.createElement('i', { className: 'fas fa-store' }),
+            'Shop'
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'navbar__list__item' },
+            _react2.default.createElement('i', { className: 'fas fa-tasks' }),
+            'Dashboard Plan'
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'navbar__list__item' },
+            _react2.default.createElement('i', { className: 'fas fa-headphones' }),
+            'Contact'
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'navbar__list__item' },
+            _react2.default.createElement('i', { className: 'fas fa-info-circle' }),
+            'About'
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'navbar__list__item' },
+            _react2.default.createElement('i', { className: 'fas fa-door-open' }),
+            'Log Out'
+          )
+        )
+      );
+    }
+  }]);
+
+  return Navbar;
+}(_react2.default.Component);
 
 exports.default = Navbar;
 
@@ -28178,6 +28315,8 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+__webpack_require__(/*! ./landingPage.less */ "./src/client/components/landingpage/landingPage.less");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -28202,9 +28341,30 @@ var LandingPage = function (_React$Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'h1',
-        null,
-        'Hello world'
+        'div',
+        { className: 'landing-page' },
+        _react2.default.createElement(
+          'div',
+          { className: 'landing-page__logo-holder' },
+          _react2.default.createElement('img', { src: '/assets/hera-logo.svg', alt: 'hera-logo' })
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'landing-page__landing-header' },
+          'Your wedding is near',
+          _react2.default.createElement('wbr', null),
+          _react2.default.createElement(
+            'span',
+            null,
+            'Hera'
+          ),
+          ' will make your happy Wedding Easier',
+          _react2.default.createElement(
+            'span',
+            null,
+            'find wedding vendores you need and making a plan for your happy day'
+          )
+        )
       );
     }
   }]);
@@ -28213,6 +28373,36 @@ var LandingPage = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = LandingPage;
+
+/***/ }),
+
+/***/ "./src/client/components/landingpage/landingPage.less":
+/*!************************************************************!*\
+  !*** ./src/client/components/landingpage/landingPage.less ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/less-loader/dist/cjs.js!./landingPage.less */ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/landingPage.less");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
@@ -28246,6 +28436,24 @@ exports.default = function () {
 
 /***/ }),
 
+/***/ "./src/client/constants/actionTypes.js":
+/*!*********************************************!*\
+  !*** ./src/client/constants/actionTypes.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var NAVBAR_COLLAPSE = exports.NAVBAR_COLLAPSE = 'NAVBAR_COLLAPSE';
+var NAVBAR_REVEAL = exports.NAVBAR_REVEAL = 'NAVBAR_REVEAL';
+
+/***/ }),
+
 /***/ "./src/client/containers/landingPageContainer.js":
 /*!*******************************************************!*\
   !*** ./src/client/containers/landingPageContainer.js ***!
@@ -28275,6 +28483,45 @@ var mapStateToProps = function mapStateToProps(state) {
 var mapDispatchToProps = {};
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_landingPage2.default);
+
+/***/ }),
+
+/***/ "./src/client/containers/navbarContainer.js":
+/*!**************************************************!*\
+  !*** ./src/client/containers/navbarContainer.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _navbar = __webpack_require__(/*! ../components/global/navbar */ "./src/client/components/global/navbar/index.jsx");
+
+var _navbar2 = _interopRequireDefault(_navbar);
+
+var _navbarActions = __webpack_require__(/*! ../actions/navbarActions */ "./src/client/actions/navbarActions/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var mapStateToProps = function mapStateToProps(state) {
+    return {
+        isCollapsed: state.navbarReducer.isCollapsed
+    };
+};
+
+var mapDispatchToProps = {
+    navbarCollapse: _navbarActions.navbarCollapse,
+    navbarReveal: _navbarActions.navbarReveal
+};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_navbar2.default);
 
 /***/ }),
 
@@ -28316,6 +28563,42 @@ _reactDom2.default.render(_react2.default.createElement(
 
 /***/ }),
 
+/***/ "./src/client/reducers/navbarReducer/index.js":
+/*!****************************************************!*\
+  !*** ./src/client/reducers/navbarReducer/index.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _actionTypes = __webpack_require__(/*! ../../constants/actionTypes */ "./src/client/constants/actionTypes.js");
+
+var initialState = { isCollapsed: true };
+
+exports.default = function () {
+    var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
+    var _ref = arguments[1];
+    var type = _ref.type,
+        isCollapsed = _ref.isCollapsed;
+
+    switch (type) {
+        case _actionTypes.NAVBAR_COLLAPSE:
+            return { isCollapsed: true };
+        case _actionTypes.NAVBAR_REVEAL:
+            return { isCollapsed: false };
+        default:
+            return { isCollapsed: !isCollapsed };
+    }
+};
+
+/***/ }),
+
 /***/ "./src/client/reducers/rootReducer.js":
 /*!********************************************!*\
   !*** ./src/client/reducers/rootReducer.js ***!
@@ -28327,16 +28610,22 @@ _reactDom2.default.render(_react2.default.createElement(
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _redux = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
 
-// import sth from './allPatientsReducers/sth';
+var _navbarReducer = __webpack_require__(/*! ./navbarReducer */ "./src/client/reducers/navbarReducer/index.js");
+
+var _navbarReducer2 = _interopRequireDefault(_navbarReducer);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = (0, _redux.combineReducers)({
-  //   sth,
+    navbarReducer: _navbarReducer2.default
 });
+
+// import sth from './allPatientsReducers/sth';
 
 /***/ }),
 
