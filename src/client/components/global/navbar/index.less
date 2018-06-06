@@ -17,18 +17,48 @@
     background: @red-pink;
     &__swapper {
         position: fixed;
-        top: 10%;
+        background-color: @transparent;
+        border: none;
+        outline: none;
+        width: 30px;
+        height: 30px;
+        top: 40px;
         left: 20px;
-        color: #941212;
-        font-size: 40px;
-        transform: rotate(0deg);
         transition: all .5s;
-        &.active {
-            left: 30px;
-            top: 30px;
-            transform: rotate(540deg);
-            transition: all .5s;
-        }
+        & span {
+            position: absolute;
+            display: block;
+            height: 2px;
+            width: 30px;
+            background-color: @fade-grey;
+            opacity: 1;
+            transform: rotate(0deg);
+            transition: all .8s;
+            &:nth-child(1){
+              top: 0;
+              &.active {
+                top: 10px;
+                transform: rotate(135deg);
+                transition: all .8s;
+              }  
+            }
+            &:nth-child(2) {
+              top: 10px;
+              &.active {
+                transform: translateX(50px);
+                opacity:0;
+                transition: all .8s;
+              } 
+            }
+            &:nth-child(3) {
+              top: 20px;
+              &.active {
+                top: 10px;
+                transform: rotate(-135deg);
+                transition: all .8s;
+              } 
+            }
+          }
     }
     &__list {
         padding: 12vh 0;

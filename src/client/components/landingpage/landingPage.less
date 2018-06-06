@@ -4,6 +4,8 @@
 @lit-blue: #00bfff;
 @fade-grey: #CACAB6;
 @transparent: rgba(0,0,0,0);
+@smartphones: ~"only screen and (max-width: 479px)";
+@widescreens: ~"only screen and (min-width: 480px)";
 
 .landing-page {
     & > img {
@@ -12,23 +14,41 @@
         width: 100vw;
         height: 100vh;
         position: absolute;
-        opacity: .5;
+        opacity: 0;
         z-index: -1;
+        &:nth-child(1) {
+            @media @smartphones {
+                opacity: .5;
+            }
+        }
+        &:nth-child(2) {
+            @media @widescreens {
+                opacity: .5;
+            }
+        }
     }
     &__logo-holder {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 50px;
+        height: 100px;
         margin: 0;
+        position: absolute;
+        pointer-events: none;
+        z-index: -1;
+        & img {
+            width: 90px;
+        }
     }
     &__landing-header {
         font-size: 24px;
         text-align: left;
         justify-content: center;
-        padding: 40% 10%;
+        font-family: 'Raleway', sans-serif;
+        padding: 170px 10% 130px;
         &__pink-bold {
+            font-family: 'Allan', cursive;
             font-size: 48px;
             font-weight: 900;
             color: @red-pink;
@@ -39,6 +59,7 @@
     }
     &__calltoaction {
         color: white;
+        font-family: 'Raleway', sans-serif;
         margin-left: calc(50% - 68px); 
         font-size: 24px;
         padding: 10px 25px;
