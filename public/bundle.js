@@ -117,7 +117,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".navbar {\n  top: 0;\n  max-width: 500px;\n  width: 25%;\n  min-width: 320px;\n  height: 100vh;\n  font-size: 1.5em;\n  color: #FFFFFF;\n  position: fixed;\n  background: #FF6B98;\n}\n.navbar__swapper {\n  position: fixed;\n  top: 50%;\n  left: 325px;\n  color: #CACAB6;\n  font-size: 40px;\n  transform: rotate(90deg);\n  transition: all .5s;\n}\n.navbar__swapper.active {\n  left: 20px;\n  transform: rotate(0deg);\n  transition: all .5s;\n}\n.navbar__list {\n  padding: 4vh 0;\n}\n.navbar__list__search {\n  display: flex;\n  font-size: 2em;\n  padding-bottom: 15px;\n  justify-content: space-evenly;\n}\n.navbar__list__search input {\n  background-color: rgba(0, 0, 0, 0);\n  padding: 5px 10px;\n  border: 1px solid #FFFFFF;\n  border-radius: 15px;\n  outline: none;\n}\n.navbar__list__search input::placeholder {\n  color: #FFFFFF;\n  font-size: 18px;\n}\n.navbar__list__item {\n  width: calc(100% - 40px);\n  padding: 10px 20px;\n  margin: 10px 0;\n  background-color: rgba(0, 0, 0, 0);\n  transition: background-color 0.5s;\n}\n.navbar__list__item .fas {\n  width: 50px;\n}\n.navbar__list__item:hover {\n  background-color: #00bfff;\n  transition: background-color 0.5s;\n}\n.navbar.hidden {\n  left: -500px;\n  transition: left .5s;\n}\n.navbar:not(.hidden) {\n  left: 0;\n  transition: left .5s;\n}\n", ""]);
+exports.push([module.i, ".navbar {\n  top: 0;\n  max-width: 500px;\n  width: 25%;\n  min-width: 320px;\n  height: 100vh;\n  font-size: 1.5em;\n  color: #FFFFFF;\n  position: fixed;\n  background: #FF6B98;\n}\n.navbar__swapper {\n  position: fixed;\n  top: 10%;\n  left: calc(100vw - 40px);\n  color: #00bfff;\n  font-size: 40px;\n  transform: rotate(90deg);\n  transition: all .5s;\n}\n.navbar__swapper.active {\n  left: 20px;\n  transform: rotate(0deg);\n  transition: all .5s;\n}\n.navbar__list {\n  padding: 4vh 0;\n}\n.navbar__list__search {\n  display: flex;\n  font-size: 2em;\n  padding-bottom: 15px;\n  justify-content: space-evenly;\n}\n.navbar__list__search input {\n  background-color: rgba(0, 0, 0, 0);\n  padding: 5px 10px;\n  border: 1px solid #FFFFFF;\n  border-radius: 15px;\n  outline: none;\n}\n.navbar__list__search input::placeholder {\n  color: #FFFFFF;\n  font-size: 18px;\n}\n.navbar__list__item {\n  width: calc(100% - 40px);\n  padding: 10px 20px;\n  margin: 10px 0;\n  background-color: rgba(0, 0, 0, 0);\n  transition: background-color 0.5s;\n}\n.navbar__list__item .fas {\n  width: 50px;\n}\n.navbar__list__item:hover {\n  background-color: #00bfff;\n  transition: background-color 0.5s;\n}\n.navbar.hidden {\n  left: -500px;\n  transition: left .5s;\n}\n.navbar:not(.hidden) {\n  left: 0;\n  transition: left .5s;\n}\n", ""]);
 
 // exports
 
@@ -136,7 +136,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".landing-page__logo-holder {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n  height: 50px;\n  margin: 0;\n}\n", ""]);
+exports.push([module.i, ".landing-page > img {\n  top: 0;\n  left: 0;\n  width: 100vw;\n  height: 100vh;\n  position: absolute;\n  opacity: .5;\n  z-index: -1;\n}\n.landing-page__logo-holder {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n  height: 50px;\n  margin: 0;\n}\n.landing-page__landing-header {\n  font-size: 24px;\n  text-align: left;\n  justify-content: center;\n  padding: 40% 10%;\n}\n.landing-page__landing-header__pink-bold {\n  font-size: 48px;\n  font-weight: 900;\n  color: #FF6B98;\n}\n.landing-page__landing-header__smalldesc {\n  font-size: 18px;\n}\n.landing-page__calltoaction {\n  color: white;\n  margin-left: calc(50% - 68px);\n  font-size: 24px;\n  padding: 10px 25px;\n  outline: none;\n  border: none;\n  background-color: #FF6C98;\n  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);\n  border-radius: 15px;\n  transition: background-color 1s;\n}\n.landing-page__calltoaction:hover {\n  background-color: #00bfff;\n  transition: background-color 1s;\n}\n", ""]);
 
 // exports
 
@@ -28343,6 +28343,7 @@ var LandingPage = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         { className: 'landing-page' },
+        _react2.default.createElement('img', { src: '/assets/roses&rings.jpg', alt: 'background' }),
         _react2.default.createElement(
           'div',
           { className: 'landing-page__logo-holder' },
@@ -28351,19 +28352,26 @@ var LandingPage = function (_React$Component) {
         _react2.default.createElement(
           'div',
           { className: 'landing-page__landing-header' },
-          'Your wedding is near',
+          'Your wedding is near ',
           _react2.default.createElement('wbr', null),
           _react2.default.createElement(
             'span',
-            null,
+            { className: 'landing-page__landing-header__pink-bold' },
             'Hera'
           ),
           ' will make your happy Wedding Easier',
+          _react2.default.createElement('br', null),
+          _react2.default.createElement('br', null),
           _react2.default.createElement(
             'span',
-            null,
+            { className: 'landing-page__landing-header__smalldesc' },
             'find wedding vendores you need and making a plan for your happy day'
           )
+        ),
+        _react2.default.createElement(
+          'button',
+          { className: 'landing-page__calltoaction' },
+          'Let\'s Start'
         )
       );
     }
