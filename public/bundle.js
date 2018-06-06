@@ -98,7 +98,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".all {\n  padding: 0;\n}\n", ""]);
+exports.push([module.i, ".navbar {\n  top: 0;\n  left: 0;\n  max-width: 500px;\n  width: 25%;\n  min-width: 320px;\n  height: 100vh;\n  font-size: 1.5em;\n  color: #fff;\n  position: fixed;\n  background: #ff6b98;\n  transition: left .5s;\n}\n.navbar__swapper {\n  position: fixed;\n  top: 50%;\n  left: 325px;\n  color: #cacab6;\n  font-size: 40px;\n  transform: rotate(90deg);\n  transition: transform 1s;\n}\n.navbar__swapper.active {\n  transform: rotate(0deg);\n  transition: transform 1s;\n}\n.navbar__list {\n  padding: 4vh 0;\n}\n.navbar__list__search {\n  display: flex;\n  font-size: 2em;\n  padding-bottom: 15px;\n  justify-content: space-evenly;\n}\n.navbar__list__search input {\n  background-color: rgba(0, 0, 0, 0);\n  padding: 5px 10px;\n  border: 1px solid #fff;\n  border-radius: 15px;\n  outline: none;\n}\n.navbar__list__search input::placeholder {\n  color: #fff;\n  font-size: 18px;\n}\n.navbar__list__item {\n  width: calc(100% - 40px);\n  padding: 10px 20px;\n  margin: 10px 0;\n  background-color: #0000;\n  transition: background-color 0.5s;\n}\n.navbar__list__item .fas {\n  width: 50px;\n}\n.navbar__list__item:hover {\n  background-color: #00bfff;\n  transition: background-color 0.5s;\n}\n.navbar.hidden {\n  left: -500px;\n  transition: left .5s;\n}\n", ""]);
 
 // exports
 
@@ -28020,6 +28020,10 @@ var _landingPageContainer = __webpack_require__(/*! ../containers/landingPageCon
 
 var _landingPageContainer2 = _interopRequireDefault(_landingPageContainer);
 
+var _notFoundPage = __webpack_require__(/*! ../components/notFoundPage */ "./src/client/components/notFoundPage/index.jsx");
+
+var _notFoundPage2 = _interopRequireDefault(_notFoundPage);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function App() {
@@ -28033,7 +28037,8 @@ var App = function App() {
       _react2.default.createElement(
         _reactRouterDom.Switch,
         null,
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _landingPageContainer2.default })
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _landingPageContainer2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { component: _notFoundPage2.default })
       )
     )
   );
@@ -28072,31 +28077,48 @@ var Navbar = function Navbar() {
     _react2.default.createElement('i', { className: 'fas fa-circle-notch navbar__swapper' }),
     _react2.default.createElement(
       'ul',
-      null,
+      { className: 'navbar__list' },
       _react2.default.createElement(
         'li',
-        null,
+        { className: 'navbar__list__search' },
+        _react2.default.createElement('i', { className: 'fas fa-search' }),
         _react2.default.createElement('input', { type: 'text', placeholder: 'Search...' })
       ),
       _react2.default.createElement(
         'li',
-        null,
-        'a'
+        { className: 'navbar__list__item' },
+        _react2.default.createElement('i', { className: 'fas fa-truck-loading' }),
+        'Vendors'
       ),
       _react2.default.createElement(
         'li',
-        null,
-        'a'
+        { className: 'navbar__list__item' },
+        _react2.default.createElement('i', { className: 'fas fa-store' }),
+        'Shop'
       ),
       _react2.default.createElement(
         'li',
-        null,
-        'a'
+        { className: 'navbar__list__item' },
+        _react2.default.createElement('i', { className: 'fas fa-tasks' }),
+        'Dashboard Plan'
       ),
       _react2.default.createElement(
         'li',
-        null,
-        'a'
+        { className: 'navbar__list__item' },
+        _react2.default.createElement('i', { className: 'fas fa-headphones' }),
+        'Contact'
+      ),
+      _react2.default.createElement(
+        'li',
+        { className: 'navbar__list__item' },
+        _react2.default.createElement('i', { className: 'fas fa-info-circle' }),
+        'About'
+      ),
+      _react2.default.createElement(
+        'li',
+        { className: 'navbar__list__item' },
+        _react2.default.createElement('i', { className: 'fas fa-door-open' }),
+        'Log Out'
       )
     )
   );
@@ -28191,6 +28213,36 @@ var LandingPage = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = LandingPage;
+
+/***/ }),
+
+/***/ "./src/client/components/notFoundPage/index.jsx":
+/*!******************************************************!*\
+  !*** ./src/client/components/notFoundPage/index.jsx ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function () {
+  return _react2.default.createElement(
+    'h1',
+    null,
+    'Error 404: Page Not Found'
+  );
+};
 
 /***/ }),
 
