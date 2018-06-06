@@ -1,0 +1,75 @@
+@white : #FFFFFF;
+@black : #000000;
+@red-pink: #FF6B98;
+@lit-blue: #00bfff;
+@fade-grey: #CACAB6;
+@transparent: rgba(0,0,0,0);
+
+.navbar {
+    top: 0;
+    max-width: 500px;
+    width: 25%;
+    min-width: 320px;
+    height: 100vh;
+    font-size: 1.5em;
+    color: @white;
+    position: fixed;
+    background: @red-pink;
+    &__swapper {
+        position: fixed;
+        top: 10%;
+        left: 20px;
+        color: @lit-blue;
+        font-size: 40px;
+        transform: rotate(0deg);
+        transition: all .5s;
+        &.active {
+            left: 30px;
+            top: 30px;
+            transform: rotate(90deg);
+            transition: all .5s;
+        }
+    }
+    &__list {
+        padding: 12vh 0;
+        &__search {
+            display: flex;
+            font-size: 2em;
+            padding-bottom: 15px;
+            justify-content: space-evenly;
+            & input {
+                background-color: @transparent;
+                padding: 5px 10px;
+                border: 1px solid @white;
+                border-radius: 15px;
+                outline: none;
+                &::placeholder {
+                    color: @white;
+                    font-size: 18px;
+                }
+            }
+        }
+        &__item {
+            width: calc(100% - 40px);
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: @transparent;
+            transition: background-color .5s;
+            .fas {
+                width: 50px; 
+            }
+            &:hover {
+                background-color: @lit-blue;
+                transition: background-color .5s;
+            }
+        }
+    }
+    &.hidden {
+        left: -500px;
+        transition: left .5s;
+    }
+    &:not(.hidden) {
+        left: 0;
+        transition: left .5s;
+    }
+}
