@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 
-import LandingPage from '../components/landingpage/landingPage';
+import LandingPage from '../components/landingpage';
 
 const mapStateToProps = state => ({
 

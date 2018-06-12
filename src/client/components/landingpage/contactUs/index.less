@@ -1,0 +1,60 @@
+@import "../../global/index.less";
+
+.contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(/assets/contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  & .contact-form {
+    width: 450px;
+    display: flex;
+    padding: 30px 40px;
+    border-radius: 2px;
+    flex-direction: column;
+    margin: 50px 0 50px -450px;
+    background-color: @white;
+    h2 {
+      color: #303030;
+      font-size: 30px;
+      font-weight: 100;
+      padding: 30px 0 20px 0;
+    }
+    h3 {
+      color: #666;
+      font-weight: 100;
+      padding: 10px 0 20px;
+    }
+    input, textarea {
+      border: 1px solid #e7e7e7;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 10px 0;
+      .globalTransition;
+      &:hover {
+        border: 1px solid @red-pink;
+        .globalTransition;
+      }
+    }
+    textarea {
+      resize: none;
+      height: 100px;
+    }
+    button {
+      border: none;
+      color: @white;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+      padding: 15px 70px;
+      text-transform: uppercase;
+      background-color: @purple-pink;
+      .globalTransition;
+      &:hover {
+        background-color: @red-pink;
+        .globalTransition;
+      }
+    }
+  }
+}
