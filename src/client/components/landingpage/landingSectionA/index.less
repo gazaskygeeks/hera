@@ -1,0 +1,81 @@
+@import "../../global/index.less";
+
+.landing-section-1 {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    cursor: default;
+    & > img:first-child {
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      filter: brightness(75%);
+    }
+    & h1 {
+      top: 350px;
+      left: 210px;
+      color: @white;
+      font-size: 48px;
+      position: absolute;
+    }
+    & h4 {
+      top: 500px;
+      left: 210px;
+      color: @white;
+      font-size: 20px;
+      position: absolute;
+    }
+    & button {
+      top: 600px;
+      left: 210px;
+      border: none;
+      color: @white;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+      padding: 15px 70px;
+      position: absolute;
+      text-transform: uppercase;
+      background-color: @purple-pink;
+      .globalTransition;
+      &:hover {
+        background-color: @red-pink;
+        .globalTransition;
+      }
+    }
+    & .scroll-icon {
+      top: 95%;
+      left: 210px;
+      width: 280px;
+      color: @white;
+      display: flex;
+      cursor: pointer;
+      font-size: 1.1em;
+      border-radius: 5px;
+      position: absolute;
+      align-items: center;
+      letter-spacing: 0.6em;
+      background-color: @transparent;
+      justify-content: space-between;
+      .globalTransition;
+      & span {
+        width: 2em;
+        height: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: .5px solid @white;
+        border-radius: 100%;
+      }
+      & i {
+        width: 1em;
+      }
+      &:hover {
+        background-color: @dim;
+        .globalTransition;
+      }
+    }
+}

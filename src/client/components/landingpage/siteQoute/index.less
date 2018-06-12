@@ -1,0 +1,39 @@
+@import "../../global/index.less";
+
+.site-qoute {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 50px;
+  .credit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .image-placement {
+      width: 100px;
+      height: 100px;
+      margin: 35px 90px;
+      background-color: grey;
+      border-radius: 100%;
+    }
+  }
+  .qoute {
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+  }
+  .fas {
+    font-size: 1.4em;
+    &:first-child {
+      float: left;
+      padding-right: 20px;
+    }
+    &:last-child {
+      float: right;
+      padding-left: 20px;
+    }
+  }
+}

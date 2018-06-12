@@ -98,7 +98,26 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "* {\n  padding: 0;\n  margin: 0;\n}\n", ""]);
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n* {\n  padding: 0;\n  margin: 0;\n  font-family: 'Raleway', sans-serif;\n}\nul {\n  list-style-type: none;\n}\nbody {\n  overflow-x: hidden;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/global/footer/index.less":
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/global/footer/index.less ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.footer {\n  width: 100%;\n  display: flex;\n  padding: 20px 0;\n  justify-content: center;\n}\n.footer ul {\n  width: 18%;\n  display: flex;\n  flex-direction: column;\n}\n.footer ul li {\n  margin: 10px 0;\n}\n.footer ul .seperator {\n  width: 100%;\n  margin: 10px 0;\n  border-top: 1px solid #e7e7e7;\n}\n.footer ul a {\n  color: #9a9a9a;\n  text-decoration: none;\n  padding: 10px 0;\n  transition: all .3s;\n}\n.footer ul a:hover {\n  color: #1890ff;\n  transition: all .3s;\n}\n", ""]);
 
 // exports
 
@@ -117,17 +136,36 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".navbar {\n  top: 0;\n  font-family: 'Raleway', sans-serif;\n  max-width: 500px;\n  width: 25%;\n  min-width: 320px;\n  height: 100vh;\n  font-size: 1.5em;\n  color: #FFFFFF;\n  position: fixed;\n  background: #FF6B98;\n}\n.navbar__swapper {\n  position: fixed;\n  background-color: rgba(0, 0, 0, 0);\n  border: none;\n  outline: none;\n  width: 30px;\n  height: 30px;\n  top: 40px;\n  left: 20px;\n  transition: all .5s;\n}\n.navbar__swapper span {\n  position: absolute;\n  display: block;\n  height: 2px;\n  width: 30px;\n  background-color: #604e56;\n  opacity: 1;\n  transform: rotate(0deg);\n  transition: all .8s;\n}\n.navbar__swapper span:nth-child(1) {\n  top: 0;\n}\n.navbar__swapper span:nth-child(1).active {\n  top: 10px;\n  transform: rotate(135deg);\n}\n.navbar__swapper span:nth-child(2) {\n  top: 10px;\n}\n.navbar__swapper span:nth-child(2).active {\n  transform: translateX(50px);\n  opacity: 0;\n}\n.navbar__swapper span:nth-child(3) {\n  top: 20px;\n}\n.navbar__swapper span:nth-child(3).active {\n  top: 10px;\n  transform: rotate(-135deg);\n}\n.navbar__swapper span.active {\n  background-color: #FFFFFF;\n  transition: all .8s;\n}\n.navbar__list {\n  padding: 12vh 0;\n}\n.navbar__list__search {\n  display: flex;\n  font-size: 1.3em;\n  padding-bottom: 15px;\n  justify-content: space-evenly;\n}\n.navbar__list__search input {\n  background-color: rgba(0, 0, 0, 0);\n  padding: 5px 10px;\n  border: 1px solid #FFFFFF;\n  border-radius: 15px;\n  outline: none;\n  width: 50%;\n  transition: all .8s;\n}\n.navbar__list__search input::placeholder {\n  color: #FFFFFF;\n  font-size: 18px;\n}\n.navbar__list__search input:focus {\n  width: 70%;\n  background-color: #FFFFFF;\n  transition: all .8s;\n}\n.navbar__list__search input:focus::placeholder {\n  color: #000000;\n}\n.navbar__list__item {\n  width: calc(100% - 40px);\n  padding: 10px 20px;\n  margin: 10px 0;\n  background-color: rgba(0, 0, 0, 0);\n  transition: background-color 0.5s;\n}\n.navbar__list__item .fas {\n  width: 50px;\n}\n.navbar__list__item:hover {\n  background-color: #00bfff;\n  transition: background-color 0.5s;\n}\n.navbar.hidden {\n  left: -500px;\n  transition: left .5s;\n}\n.navbar:not(.hidden) {\n  left: 0;\n  transition: left .5s;\n}\n", ""]);
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.navbar {\n  top: 0;\n  height: 80px;\n  color: #FFFFFF;\n  position: absolute;\n  font-size: 1.5em;\n  width: calc(100% - 274px);\n  font-family: 'Raleway', sans-serif;\n}\n.navbar__list {\n  width: 100%;\n  display: flex;\n  padding: 0 137px;\n}\n.navbar__list__logo {\n  padding: 0 20px;\n}\n.navbar__list__item {\n  display: flex;\n  padding: 0 20px;\n  cursor: pointer;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0);\n  transition: all .3s;\n}\n.navbar__list__item:hover {\n  background-color: #00000017;\n  transition: all .3s;\n}\n.navbar__list__search input {\n  width: 300px;\n  height: 20px;\n  border: none;\n  outline: none;\n  padding: 12px;\n  margin: 0 20px;\n  font-size: 18px;\n  background-color: #00000017;\n  transition: all .3s;\n}\n.navbar__list__search input:focus {\n  border-bottom: 2px;\n  background-color: rgba(0, 0, 0, 0);\n  box-shadow: 1 1px 2px #604E56;\n  transition: all .3s;\n}\n.navbar__list__search input:focus::placeholder {\n  font-size: 0;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/landingPage.less":
-/*!*****************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/landingPage.less ***!
-  \*****************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/contactUs/index.less":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/contactUs/index.less ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.contact-us {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: url(/assets/contact-bg.jpg);\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.contact-us .contact-form {\n  width: 450px;\n  display: flex;\n  padding: 30px 40px;\n  border-radius: 2px;\n  flex-direction: column;\n  margin: 50px 0 50px -450px;\n  background-color: #FFFFFF;\n}\n.contact-us .contact-form h2 {\n  color: #303030;\n  font-size: 30px;\n  font-weight: 100;\n  padding: 30px 0 20px 0;\n}\n.contact-us .contact-form h3 {\n  color: #666;\n  font-weight: 100;\n  padding: 10px 0 20px;\n}\n.contact-us .contact-form input,\n.contact-us .contact-form textarea {\n  border: 1px solid #e7e7e7;\n  padding: 10px;\n  border-radius: 5px;\n  margin: 10px 0;\n  transition: all .3s;\n}\n.contact-us .contact-form input:hover,\n.contact-us .contact-form textarea:hover {\n  border: 1px solid #FF6B98;\n  transition: all .3s;\n}\n.contact-us .contact-form textarea {\n  resize: none;\n  height: 100px;\n}\n.contact-us .contact-form button {\n  border: none;\n  color: #FFFFFF;\n  cursor: pointer;\n  font-size: 16px;\n  border-radius: 5px;\n  padding: 15px 70px;\n  text-transform: uppercase;\n  background-color: #EC9EEA;\n  transition: all .3s;\n}\n.contact-us .contact-form button:hover {\n  background-color: #FF6B98;\n  transition: all .3s;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/index.less":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/index.less ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -136,7 +174,83 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".landing-page > img {\n  top: 0;\n  left: 0;\n  width: 100vw;\n  height: 100vh;\n  position: absolute;\n  opacity: 0;\n  z-index: -1;\n}\n@media only screen and (max-width: 479px) {\n  .landing-page > img:nth-child(1) {\n    opacity: .5;\n  }\n}\n@media only screen and (min-width: 480px) {\n  .landing-page > img:nth-child(2) {\n    opacity: .5;\n  }\n}\n.landing-page__logo-holder {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n  height: 100px;\n  margin: 0;\n  position: absolute;\n  pointer-events: none;\n  z-index: -1;\n}\n.landing-page__logo-holder img {\n  width: 90px;\n}\n.landing-page__landing-header {\n  font-size: 24px;\n  text-align: left;\n  justify-content: center;\n  font-family: 'Raleway', sans-serif;\n  padding: 170px 10% 130px;\n}\n.landing-page__landing-header__pink-bold {\n  font-family: 'Allan', cursive;\n  font-size: 48px;\n  font-weight: 900;\n  color: #FF6B98;\n}\n.landing-page__landing-header__smalldesc {\n  font-size: 18px;\n}\n.landing-page__calltoaction {\n  color: white;\n  font-family: 'Raleway', sans-serif;\n  margin-left: calc(50% - 68px);\n  font-size: 24px;\n  padding: 10px 25px;\n  outline: none;\n  border: none;\n  background-color: #FF6C98;\n  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);\n  border-radius: 15px;\n  transition: background-color 1s;\n}\n.landing-page__calltoaction:hover {\n  background-color: #00bfff;\n  transition: background-color 1s;\n}\n", ""]);
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/landingSectionA/index.less":
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/landingSectionA/index.less ***!
+  \***************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.landing-section-1 {\n  width: 100vw;\n  height: 100vh;\n  display: block;\n  cursor: default;\n}\n.landing-section-1 > img:first-child {\n  top: 0;\n  left: 0;\n  z-index: -1;\n  width: 100vw;\n  height: 100vh;\n  position: absolute;\n  filter: brightness(75%);\n}\n.landing-section-1 h1 {\n  top: 350px;\n  left: 210px;\n  color: #FFFFFF;\n  font-size: 48px;\n  position: absolute;\n}\n.landing-section-1 h4 {\n  top: 500px;\n  left: 210px;\n  color: #FFFFFF;\n  font-size: 20px;\n  position: absolute;\n}\n.landing-section-1 button {\n  top: 600px;\n  left: 210px;\n  border: none;\n  color: #FFFFFF;\n  cursor: pointer;\n  font-size: 16px;\n  border-radius: 5px;\n  padding: 15px 70px;\n  position: absolute;\n  text-transform: uppercase;\n  background-color: #EC9EEA;\n  transition: all .3s;\n}\n.landing-section-1 button:hover {\n  background-color: #FF6B98;\n  transition: all .3s;\n}\n.landing-section-1 .scroll-icon {\n  top: 95%;\n  left: 210px;\n  width: 280px;\n  color: #FFFFFF;\n  display: flex;\n  cursor: pointer;\n  font-size: 1.1em;\n  border-radius: 5px;\n  position: absolute;\n  align-items: center;\n  letter-spacing: 0.6em;\n  background-color: rgba(0, 0, 0, 0);\n  justify-content: space-between;\n  transition: all .3s;\n}\n.landing-section-1 .scroll-icon span {\n  width: 2em;\n  height: 2em;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 0.5px solid #FFFFFF;\n  border-radius: 100%;\n}\n.landing-section-1 .scroll-icon i {\n  width: 1em;\n}\n.landing-section-1 .scroll-icon:hover {\n  background-color: #00000017;\n  transition: all .3s;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/landingStarter/index.less":
+/*!**************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/landingStarter/index.less ***!
+  \**************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.landing-starter {\n  display: flex;\n  padding: 50px 0;\n  align-items: center;\n  justify-content: center;\n}\n.landing-starter img {\n  width: 50%;\n}\n.landing-starter div {\n  width: 50%;\n  text-align: center;\n}\n.landing-starter div h2 {\n  color: #303030;\n  font-size: 50px;\n  font-weight: 100;\n  letter-spacing: .3em;\n}\n.landing-starter div h3 {\n  font-size: 16px;\n  color: #b6b6b5;\n  padding: 50px 0;\n  font-weight: 100;\n}\n.landing-starter div button {\n  border: none;\n  color: #FFFFFF;\n  cursor: pointer;\n  font-size: 16px;\n  border-radius: 5px;\n  padding: 15px 70px;\n  text-transform: uppercase;\n  background-color: #EC9EEA;\n  transition: all .3s;\n}\n.landing-starter div button:hover {\n  background-color: #FF6B98;\n  transition: all .3s;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/ourProcess/index.less":
+/*!**********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/ourProcess/index.less ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.our-process {\n  width: 100vw;\n  display: flex;\n  flex-wrap: wrap;\n  padding: 60px 0;\n  line-height: 3.5em;\n  text-align: center;\n  align-items: center;\n  justify-content: center;\n}\n.our-process h2 {\n  width: 100%;\n  color: #303030;\n  font-size: 30px;\n  font-weight: 100;\n}\n.our-process h3 {\n  width: 100%;\n  font-size: 16px;\n  font-weight: 100;\n  color: #b6b6b5;\n}\n.our-process__services {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n}\n.our-process__services li {\n  font-size: 5em;\n  width: 250px;\n  padding: 15px 10px;\n  transition: all .3s;\n}\n.our-process__services li:hover {\n  color: #ec9eea;\n  transition: all .3s;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/siteQoute/index.less":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/siteQoute/index.less ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.site-qoute {\n  width: 100%;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  padding: 25px 50px;\n}\n.site-qoute .credit {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.site-qoute .credit .image-placement {\n  width: 100px;\n  height: 100px;\n  margin: 35px 90px;\n  background-color: grey;\n  border-radius: 100%;\n}\n.site-qoute .qoute {\n  width: 80%;\n  font-size: 30px;\n  text-align: center;\n}\n.site-qoute .fas {\n  font-size: 1.4em;\n}\n.site-qoute .fas:first-child {\n  float: left;\n  padding-right: 20px;\n}\n.site-qoute .fas:last-child {\n  float: right;\n  padding-left: 20px;\n}\n", ""]);
 
 // exports
 
@@ -28145,6 +28259,282 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./src/client/components/global/footer/index.js":
+/*!******************************************************!*\
+  !*** ./src/client/components/global/footer/index.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(/*! ./index.less */ "./src/client/components/global/footer/index.less");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (props) {
+  return _react2.default.createElement(
+    'div',
+    { className: 'footer' },
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'strong',
+          null,
+          'Pages'
+        )
+      ),
+      _react2.default.createElement('li', { className: 'seperator' }),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Home'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Blog'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Work'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'About'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Contact'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'strong',
+          null,
+          'Services'
+        )
+      ),
+      _react2.default.createElement('li', { className: 'seperator' }),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Art'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Photography'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Business'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Design'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Fashion'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'strong',
+          null,
+          'Contact'
+        )
+      ),
+      _react2.default.createElement('li', { className: 'seperator' }),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Get support'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Contact us'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'strong',
+          null,
+          'Legal'
+        )
+      ),
+      _react2.default.createElement('li', { className: 'seperator' }),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Privacy policy'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Terms & conditions'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'strong',
+          null,
+          'Social'
+        )
+      ),
+      _react2.default.createElement('li', { className: 'seperator' }),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'span',
+          null,
+          _react2.default.createElement('i', { 'class': 'fab fa-facebook' })
+        ),
+        _react2.default.createElement(
+          'span',
+          null,
+          _react2.default.createElement('i', { 'class': 'fab fa-twitter' })
+        ),
+        _react2.default.createElement(
+          'span',
+          null,
+          _react2.default.createElement('i', { 'class': 'fab fa-github' })
+        )
+      )
+    )
+  );
+};
+
+/***/ }),
+
+/***/ "./src/client/components/global/footer/index.less":
+/*!********************************************************!*\
+  !*** ./src/client/components/global/footer/index.less ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/less-loader/dist/cjs.js!./index.less */ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/global/footer/index.less");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./src/client/components/global/navbar/index.jsx":
 /*!*******************************************************!*\
   !*** ./src/client/components/global/navbar/index.jsx ***!
@@ -28183,79 +28573,73 @@ var Navbar = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (Navbar.__proto__ || Object.getPrototypeOf(Navbar)).call(this));
 
-    _this.handleNavbar = _this.handleNavbar.bind(_this);
+    _this.state = {
+      language: 'EN'
+    };
     return _this;
   }
 
   _createClass(Navbar, [{
-    key: 'handleNavbar',
-    value: function handleNavbar() {
-      var _props = this.props,
-          isCollapsed = _props.isCollapsed,
-          navbarCollapse = _props.navbarCollapse,
-          navbarReveal = _props.navbarReveal;
-
-      if (isCollapsed) navbarReveal();else navbarCollapse();
-    }
-  }, {
     key: 'render',
     value: function render() {
       var isCollapsed = this.props.isCollapsed;
 
       return _react2.default.createElement(
         'div',
-        { className: "navbar" + (isCollapsed ? ' hidden' : '') },
-        _react2.default.createElement(
-          'button',
-          { className: 'navbar__swapper', onClick: this.handleNavbar },
-          _react2.default.createElement('span', { className: isCollapsed ? '' : 'active' }),
-          _react2.default.createElement('span', { className: isCollapsed ? '' : 'active' }),
-          _react2.default.createElement('span', { className: isCollapsed ? '' : 'active' })
-        ),
+        { className: 'navbar' },
         _react2.default.createElement(
           'ul',
           { className: 'navbar__list' },
           _react2.default.createElement(
             'li',
-            { className: 'navbar__list__search' },
+            { className: 'navbar__list__logo' },
+            _react2.default.createElement('img', { src: '/assets/hera-logo.svg', alt: 'hera-logo' })
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'navbar__list__item' },
+            'Home'
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'navbar__list__item' },
+            'Blog'
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'navbar__list__item' },
+            'About'
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'navbar__list__item' },
+            'Contact'
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'navbar__list__item navbar__list__search' },
             _react2.default.createElement('i', { className: 'fas fa-search' }),
             _react2.default.createElement('input', { type: 'text', placeholder: 'Search...' })
           ),
           _react2.default.createElement(
             'li',
             { className: 'navbar__list__item' },
-            _react2.default.createElement('i', { className: 'fas fa-truck-loading' }),
-            'Vendors'
+            _react2.default.createElement(
+              'span',
+              null,
+              this.state.language,
+              _react2.default.createElement('i', { className: 'fas fa-caret-down' })
+            )
           ),
           _react2.default.createElement(
             'li',
             { className: 'navbar__list__item' },
-            _react2.default.createElement('i', { className: 'fas fa-store' }),
-            'Shop'
+            _react2.default.createElement('i', { className: 'fab fa-facebook-f' })
           ),
           _react2.default.createElement(
             'li',
             { className: 'navbar__list__item' },
-            _react2.default.createElement('i', { className: 'fas fa-tasks' }),
-            'Dashboard Plan'
-          ),
-          _react2.default.createElement(
-            'li',
-            { className: 'navbar__list__item' },
-            _react2.default.createElement('i', { className: 'fas fa-headphones' }),
-            'Contact'
-          ),
-          _react2.default.createElement(
-            'li',
-            { className: 'navbar__list__item' },
-            _react2.default.createElement('i', { className: 'fas fa-info-circle' }),
-            'About'
-          ),
-          _react2.default.createElement(
-            'li',
-            { className: 'navbar__list__item' },
-            _react2.default.createElement('i', { className: 'fas fa-door-open' }),
-            'Log Out'
+            _react2.default.createElement('i', { className: 'fab fa-twitter' })
           )
         )
       );
@@ -28299,10 +28683,94 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/client/components/landingpage/landingPage.jsx":
-/*!***********************************************************!*\
-  !*** ./src/client/components/landingpage/landingPage.jsx ***!
-  \***********************************************************/
+/***/ "./src/client/components/landingpage/contactUs/index.jsx":
+/*!***************************************************************!*\
+  !*** ./src/client/components/landingpage/contactUs/index.jsx ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(/*! ./index.less */ "./src/client/components/landingpage/contactUs/index.less");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (props) {
+  return _react2.default.createElement(
+    'div',
+    { className: 'contact-us' },
+    _react2.default.createElement('div', null),
+    _react2.default.createElement(
+      'div',
+      { className: 'contact-form' },
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Contact Us'
+      ),
+      _react2.default.createElement(
+        'h3',
+        null,
+        'If you\'ve got any questions, don\'t hesitate to contact us.'
+      ),
+      _react2.default.createElement('input', { type: 'text', placeholder: 'Name *' }),
+      _react2.default.createElement('input', { type: 'text', placeholder: 'Email *' }),
+      _react2.default.createElement('textarea', { placeholder: 'Enter Your Message' }),
+      _react2.default.createElement(
+        'button',
+        null,
+        'Send'
+      )
+    )
+  );
+};
+
+/***/ }),
+
+/***/ "./src/client/components/landingpage/contactUs/index.less":
+/*!****************************************************************!*\
+  !*** ./src/client/components/landingpage/contactUs/index.less ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/less-loader/dist/cjs.js!./index.less */ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/contactUs/index.less");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/client/components/landingpage/index.jsx":
+/*!*****************************************************!*\
+  !*** ./src/client/components/landingpage/index.jsx ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28319,7 +28787,31 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(/*! ./landingPage.less */ "./src/client/components/landingpage/landingPage.less");
+var _index = __webpack_require__(/*! ./landingSectionA/index.jsx */ "./src/client/components/landingpage/landingSectionA/index.jsx");
+
+var _index2 = _interopRequireDefault(_index);
+
+var _index3 = __webpack_require__(/*! ./ourProcess/index.jsx */ "./src/client/components/landingpage/ourProcess/index.jsx");
+
+var _index4 = _interopRequireDefault(_index3);
+
+var _index5 = __webpack_require__(/*! ./landingStarter/index.jsx */ "./src/client/components/landingpage/landingStarter/index.jsx");
+
+var _index6 = _interopRequireDefault(_index5);
+
+var _index7 = __webpack_require__(/*! ./siteQoute/index.jsx */ "./src/client/components/landingpage/siteQoute/index.jsx");
+
+var _index8 = _interopRequireDefault(_index7);
+
+var _index9 = __webpack_require__(/*! ./contactUs/index.jsx */ "./src/client/components/landingpage/contactUs/index.jsx");
+
+var _index10 = _interopRequireDefault(_index9);
+
+var _footer = __webpack_require__(/*! ../global/footer */ "./src/client/components/global/footer/index.js");
+
+var _footer2 = _interopRequireDefault(_footer);
+
+__webpack_require__(/*! ./index.less */ "./src/client/components/landingpage/index.less");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28337,7 +28829,9 @@ var LandingPage = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (LandingPage.__proto__ || Object.getPrototypeOf(LandingPage)).call(this));
 
-    _this.state = {};
+    _this.state = {
+      ourServices: [{ title: 'Halls', logo: _react2.default.createElement('i', { className: 'fas fa-church' }) }, { title: 'Cars', logo: _react2.default.createElement('i', { className: 'fas fa-car' }) }, { title: 'Hair Dressers', logo: _react2.default.createElement('i', { className: 'fas fa-paint-brush' }) }, { title: 'Dresses', logo: _react2.default.createElement('i', { className: 'fas fa-female' }) }, { title: 'Invitations', logo: _react2.default.createElement('i', { className: 'fas fa-phone' }) }, { title: 'Cake', logo: _react2.default.createElement('i', { className: 'fas fa-birthday-cake' }) }, { title: 'DJs', logo: _react2.default.createElement('i', { className: 'fas fa-music' }) }, { title: 'Photographers', logo: _react2.default.createElement('i', { className: 'fas fa-camera-retro' }) }, { title: 'Videographers', logo: _react2.default.createElement('i', { className: 'fas fa-video' }) }, { title: 'Gifts', logo: _react2.default.createElement('i', { className: 'fas fa-gift' }) }]
+    };
     return _this;
   }
 
@@ -28346,38 +28840,13 @@ var LandingPage = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'landing-page' },
-        _react2.default.createElement('img', { src: '/assets/roses&rings-vi.jpg', alt: 'background' }),
-        _react2.default.createElement('img', { src: '/assets/roses&rings-ho.jpg', alt: 'background' }),
-        _react2.default.createElement(
-          'div',
-          { className: 'landing-page__logo-holder' },
-          _react2.default.createElement('img', { src: '/assets/hera-logo.svg', alt: 'hera-logo' })
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'landing-page__landing-header' },
-          'Your wedding is near ',
-          _react2.default.createElement('wbr', null),
-          _react2.default.createElement(
-            'span',
-            { className: 'landing-page__landing-header__pink-bold' },
-            'Hera'
-          ),
-          ' will make your happy Wedding Easier',
-          _react2.default.createElement('br', null),
-          _react2.default.createElement('br', null),
-          _react2.default.createElement(
-            'span',
-            { className: 'landing-page__landing-header__smalldesc' },
-            'find wedding vendores you need and making a plan for your happy day'
-          )
-        ),
-        _react2.default.createElement(
-          'button',
-          { className: 'landing-page__calltoaction' },
-          'Let\'s Start'
-        )
+        null,
+        _react2.default.createElement(_index2.default, null),
+        _react2.default.createElement(_index4.default, { services: this.state.ourServices }),
+        _react2.default.createElement(_index6.default, null),
+        _react2.default.createElement(_index8.default, null),
+        _react2.default.createElement(_index10.default, null),
+        _react2.default.createElement(_footer2.default, null)
       );
     }
   }]);
@@ -28389,15 +28858,15 @@ exports.default = LandingPage;
 
 /***/ }),
 
-/***/ "./src/client/components/landingpage/landingPage.less":
-/*!************************************************************!*\
-  !*** ./src/client/components/landingpage/landingPage.less ***!
-  \************************************************************/
+/***/ "./src/client/components/landingpage/index.less":
+/*!******************************************************!*\
+  !*** ./src/client/components/landingpage/index.less ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/less-loader/dist/cjs.js!./landingPage.less */ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/landingPage.less");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/less-loader/dist/cjs.js!./index.less */ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/index.less");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -28412,6 +28881,371 @@ options.transform = transform
 options.insertInto = undefined;
 
 var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/client/components/landingpage/landingSectionA/index.jsx":
+/*!*********************************************************************!*\
+  !*** ./src/client/components/landingpage/landingSectionA/index.jsx ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(/*! ./index.less */ "./src/client/components/landingpage/landingSectionA/index.less");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function () {
+  return _react2.default.createElement(
+    'div',
+    { className: 'landing-section-1' },
+    _react2.default.createElement('img', { src: '/assets/background-1.jpg', alt: 'bg' }),
+    _react2.default.createElement(
+      'h1',
+      null,
+      'Plan your happy wedding',
+      _react2.default.createElement('br', null),
+      'Easier'
+    ),
+    _react2.default.createElement(
+      'h4',
+      null,
+      'Hera planner saves your time, money and lots of effort'
+    ),
+    _react2.default.createElement(
+      'button',
+      null,
+      'Let\'s start'
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'scroll-icon' },
+      _react2.default.createElement(
+        'span',
+        null,
+        _react2.default.createElement('i', { className: 'fas fa-arrow-down' })
+      ),
+      'Scroll down'
+    )
+  );
+};
+
+/***/ }),
+
+/***/ "./src/client/components/landingpage/landingSectionA/index.less":
+/*!**********************************************************************!*\
+  !*** ./src/client/components/landingpage/landingSectionA/index.less ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/less-loader/dist/cjs.js!./index.less */ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/landingSectionA/index.less");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/client/components/landingpage/landingStarter/index.jsx":
+/*!********************************************************************!*\
+  !*** ./src/client/components/landingpage/landingStarter/index.jsx ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(/*! ./index.less */ "./src/client/components/landingpage/landingStarter/index.less");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (props) {
+  return _react2.default.createElement(
+    'div',
+    { className: 'landing-starter' },
+    _react2.default.createElement('img', { src: '/assets/hall.jpg' }),
+    _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Plan your',
+        _react2.default.createElement('br', null),
+        'Wedding'
+      ),
+      _react2.default.createElement(
+        'h3',
+        null,
+        'We\'ve got the right tools to make your life a bit easier',
+        _react2.default.createElement('br', null),
+        'try our ',
+        _react2.default.createElement(
+          'strong',
+          null,
+          'online shop'
+        ),
+        ', our free-to use ',
+        _react2.default.createElement(
+          'strong',
+          null,
+          'checklist'
+        ),
+        ' and explore what you can do more with ',
+        _react2.default.createElement(
+          'strong',
+          null,
+          _react2.default.createElement(
+            'span',
+            { className: 'red-pink' },
+            'HERA'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'button',
+        null,
+        'Get started'
+      )
+    )
+  );
+};
+
+/***/ }),
+
+/***/ "./src/client/components/landingpage/landingStarter/index.less":
+/*!*********************************************************************!*\
+  !*** ./src/client/components/landingpage/landingStarter/index.less ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/less-loader/dist/cjs.js!./index.less */ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/landingStarter/index.less");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/client/components/landingpage/ourProcess/index.jsx":
+/*!****************************************************************!*\
+  !*** ./src/client/components/landingpage/ourProcess/index.jsx ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(/*! ./index.less */ "./src/client/components/landingpage/ourProcess/index.less");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (_ref) {
+  var services = _ref.services;
+  return _react2.default.createElement(
+    'div',
+    { className: 'our-process' },
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Our process'
+    ),
+    _react2.default.createElement(
+      'h3',
+      null,
+      'We make things easier for you by providing you links with the following service providers'
+    ),
+    _react2.default.createElement(
+      'ul',
+      { className: 'our-process__services' },
+      services.map(function (_ref2, index) {
+        var title = _ref2.title,
+            logo = _ref2.logo;
+        return _react2.default.createElement(
+          'li',
+          { key: index },
+          _react2.default.createElement(
+            'span',
+            null,
+            logo
+          ),
+          _react2.default.createElement(
+            'h2',
+            null,
+            title
+          )
+        );
+      })
+    )
+  );
+};
+
+/***/ }),
+
+/***/ "./src/client/components/landingpage/ourProcess/index.less":
+/*!*****************************************************************!*\
+  !*** ./src/client/components/landingpage/ourProcess/index.less ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/less-loader/dist/cjs.js!./index.less */ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/ourProcess/index.less");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/client/components/landingpage/siteQoute/index.jsx":
+/*!***************************************************************!*\
+  !*** ./src/client/components/landingpage/siteQoute/index.jsx ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(/*! ./index.less */ "./src/client/components/landingpage/siteQoute/index.less");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (props) {
+  return _react2.default.createElement(
+    'div',
+    { className: 'site-qoute' },
+    _react2.default.createElement(
+      'div',
+      { className: 'credit' },
+      _react2.default.createElement('span', { className: 'image-placement' }),
+      _react2.default.createElement('span', { className: 'image-placement' })
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'qoute' },
+      _react2.default.createElement('i', { className: 'fas fa-quote-left purple-pink' }),
+      'Time is the most valuable resource a human could possess, ',
+      _react2.default.createElement('wbr', null),
+      'we thrive to save time, the most priceless one',
+      _react2.default.createElement('i', { className: 'fas fa-quote-right purple-pink' })
+    )
+  );
+};
+
+/***/ }),
+
+/***/ "./src/client/components/landingpage/siteQoute/index.less":
+/*!****************************************************************!*\
+  !*** ./src/client/components/landingpage/siteQoute/index.less ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/less-loader/dist/cjs.js!./index.less */ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/landingpage/siteQoute/index.less");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -28462,8 +29296,9 @@ exports.default = function () {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var NAVBAR_COLLAPSE = exports.NAVBAR_COLLAPSE = 'NAVBAR_COLLAPSE';
-var NAVBAR_REVEAL = exports.NAVBAR_REVEAL = 'NAVBAR_REVEAL';
+var GET_AVATAR_INGO = exports.GET_AVATAR_INGO = 'GET_AVATAR_INGO';
+var GET_AVATAR_SUCC = exports.GET_AVATAR_SUCC = 'GET_AVATAR_SUCC';
+var GET_AVATAR_FAIL = exports.GET_AVATAR_FAIL = 'GET_AVATAR_FAIL';
 
 /***/ }),
 
@@ -28483,9 +29318,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
-var _landingPage = __webpack_require__(/*! ../components/landingpage/landingPage */ "./src/client/components/landingpage/landingPage.jsx");
+var _landingpage = __webpack_require__(/*! ../components/landingpage */ "./src/client/components/landingpage/index.jsx");
 
-var _landingPage2 = _interopRequireDefault(_landingPage);
+var _landingpage2 = _interopRequireDefault(_landingpage);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28495,7 +29330,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 var mapDispatchToProps = {};
 
-exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_landingPage2.default);
+exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_landingpage2.default);
 
 /***/ }),
 

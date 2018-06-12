@@ -1,0 +1,45 @@
+/*      COLORS       */
+
+@white : #FFFFFF;
+@black : #000000;
+@red-pink: #FF6B98;
+@purple-pink: #EC9EEA;
+@lit-blue: #00BFFF;
+@fade-grey: #604E56;
+@dim-text: #b6b6b5;
+@dim: ~"#00000017";
+@transparent: rgba(0,0,0,0);
+
+/*      SCREENS       */
+@smartphones: ~"only screen and (max-width: 479px)";
+@widescreens: ~"only screen and (min-width: 480px)";
+
+/*      FUNCTION      */
+.globalTransition() {
+  transition: all .3s;
+}
+
+/*    GLOBAL CLASSES   */
+.red-pink { color: @red-pink }
+.purple-pink { color: @purple-pink }
+
+/*    SCROLLBAR       */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  &:hover {
+    width: 8px;
+  }
+}
+
+/* Track */
+::-webkit-scrollbar-track { color: white }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FF6B98;
+  border-radius: 10px;
+  &:hover {
+    background: #EF5B88;
+  }
+}
