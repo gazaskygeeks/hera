@@ -1,0 +1,27 @@
+@import "../index.less";
+
+.btn {
+  border: none;
+  color: @white;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: @purple-pink;
+  .globalTransition;
+  &:hover {
+    background-color: @red-pink;
+    .globalTransition;
+  }
+  &.large {
+    font-size: 16px;
+    padding: 15px 70px;
+  }
+  &.default {
+    font-size: 14px;
+    padding: 10px 60px;
+  }
+  &.small {
+    font-size: 14px;
+    padding: 5px 50px;
+  }
+}
