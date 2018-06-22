@@ -1,0 +1,80 @@
+@import "../global/index.less";
+
+.general-store {
+  & .background {
+    top: 0;
+    right: 0;
+    opacity: .5;
+    z-index: -1;
+    width: 100vw;
+    height: 768px;
+    position: absolute;
+  }
+  & .services {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .5);
+    & li {
+      width: 19%;
+      height: 55px;
+      padding: 0 5px;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+      .globalTransition;
+      & span { display: block; }
+      &:hover {
+        font-size: 22px;
+        .globalTransition;
+        & .tooltip {
+          top: 0;
+          font-size: 16px;
+          cursor: default;
+          user-select: none;
+          color: @black;
+          position: relative;
+          .globalTransition;
+        }
+      }
+      & .tooltip {
+        top: -20px;
+        color: @transparent;
+        .globalTransition;
+      }
+    }
+  }
+
+  & .slideshow {
+    overflow: hidden;
+    height: 400px;
+    width: 728px;
+    margin: 90px auto;
+    &__wrapper {
+      @keyframes slide {
+        10% {margin-left: 0px;}
+        20% {margin-left: -728px;}
+        30% {margin-left: -728px;}
+        40% {margin-left: -1456px;}
+        50% {margin-left: -1456px;}
+        60% {margin-left: -2184px;}
+        70% {margin-left: -2184px;}
+        80% {margin-left: -2912px;}
+        90% {margin-left: -2912px;}
+      }
+      width: 3640px;
+      -webkit-animation: slide 48s ease infinite;
+      & li {
+        float: left;
+        height: 400px;
+        width: 728px;
+        &:nth-child(1) { background-color: #D93B65; }
+        &:nth-child(2) { background-color: #037E8C; }
+        &:nth-child(3) { background-color: #36BF66; }
+        &:nth-child(4) { background-color: #356a76; }
+        &:nth-child(5) { background-color: #D51a06; }
+      }
+    }
+  }
+}

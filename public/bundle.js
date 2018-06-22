@@ -105,6 +105,44 @@ exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*  
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/generalStore/index.less":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/generalStore/index.less ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.general-store .background {\n  top: 0;\n  right: 0;\n  opacity: .5;\n  z-index: -1;\n  width: 100vw;\n  height: 768px;\n  position: absolute;\n}\n.general-store .services {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(255, 255, 255, 0.5);\n}\n.general-store .services li {\n  width: 19%;\n  height: 55px;\n  padding: 0 5px;\n  font-size: 20px;\n  text-align: center;\n  cursor: pointer;\n  transition: all .3s;\n}\n.general-store .services li span {\n  display: block;\n}\n.general-store .services li:hover {\n  font-size: 22px;\n  transition: all .3s;\n}\n.general-store .services li:hover .tooltip {\n  top: 0;\n  font-size: 16px;\n  cursor: default;\n  user-select: none;\n  color: #000000;\n  position: relative;\n  transition: all .3s;\n}\n.general-store .services li .tooltip {\n  top: -20px;\n  color: rgba(0, 0, 0, 0);\n  transition: all .3s;\n}\n.general-store .slideshow {\n  overflow: hidden;\n  height: 400px;\n  width: 728px;\n  margin: 90px auto;\n}\n.general-store .slideshow__wrapper {\n  width: 3640px;\n  -webkit-animation: slide 48s ease infinite;\n}\n@keyframes slide {\n  10% {\n    margin-left: 0px;\n  }\n  20% {\n    margin-left: -728px;\n  }\n  30% {\n    margin-left: -728px;\n  }\n  40% {\n    margin-left: -1456px;\n  }\n  50% {\n    margin-left: -1456px;\n  }\n  60% {\n    margin-left: -2184px;\n  }\n  70% {\n    margin-left: -2184px;\n  }\n  80% {\n    margin-left: -2912px;\n  }\n  90% {\n    margin-left: -2912px;\n  }\n}\n.general-store .slideshow__wrapper li {\n  float: left;\n  height: 400px;\n  width: 728px;\n}\n.general-store .slideshow__wrapper li:nth-child(1) {\n  background-color: #D93B65;\n}\n.general-store .slideshow__wrapper li:nth-child(2) {\n  background-color: #037E8C;\n}\n.general-store .slideshow__wrapper li:nth-child(3) {\n  background-color: #36BF66;\n}\n.general-store .slideshow__wrapper li:nth-child(4) {\n  background-color: #356a76;\n}\n.general-store .slideshow__wrapper li:nth-child(5) {\n  background-color: #D51a06;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/global/button/index.less":
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/global/button/index.less ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.btn {\n  border: none;\n  color: #FFFFFF;\n  cursor: pointer;\n  border-radius: 5px;\n  text-transform: uppercase;\n  background-color: #EC9EEA;\n  transition: all .3s;\n}\n.btn:hover {\n  background-color: #FF6B98;\n  transition: all .3s;\n}\n.btn.large {\n  font-size: 16px;\n  padding: 15px 70px;\n}\n.btn.default {\n  font-size: 14px;\n  padding: 10px 60px;\n}\n.btn.small {\n  font-size: 14px;\n  padding: 5px 50px;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/global/footer/index.less":
 /*!*************************************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/client/components/global/footer/index.less ***!
@@ -136,7 +174,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.navbar {\n  top: 0;\n  height: 80px;\n  color: #FFFFFF;\n  position: absolute;\n  font-size: 1.5em;\n  width: calc(100% - 274px);\n  font-family: 'Raleway', sans-serif;\n}\n.navbar__list {\n  width: 100%;\n  display: flex;\n  padding: 0 137px;\n}\n.navbar__list__logo {\n  padding: 0 20px;\n}\n.navbar__list__item {\n  display: flex;\n  padding: 0 20px;\n  cursor: pointer;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0);\n  transition: all .3s;\n}\n.navbar__list__item:hover {\n  background-color: #00000017;\n  transition: all .3s;\n}\n.navbar__list__search input {\n  width: 300px;\n  height: 20px;\n  border: none;\n  outline: none;\n  padding: 12px;\n  margin: 0 20px;\n  font-size: 18px;\n  background-color: #00000017;\n  transition: all .3s;\n}\n.navbar__list__search input:focus {\n  border-bottom: 2px;\n  background-color: rgba(0, 0, 0, 0);\n  box-shadow: 1 1px 2px #604E56;\n  transition: all .3s;\n}\n.navbar__list__search input:focus::placeholder {\n  font-size: 0;\n}\n", ""]);
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.navbar {\n  top: 0;\n  height: 80px;\n  color: #FFFFFF;\n  position: relative;\n  font-size: 1.5em;\n  width: calc(100% - 274px);\n  font-family: 'Raleway', sans-serif;\n}\n.navbar__list {\n  width: 100%;\n  display: flex;\n  padding: 0 137px;\n}\n.navbar__list__logo {\n  padding: 0 20px;\n}\n.navbar__list__item {\n  display: flex;\n  padding: 0 20px;\n  cursor: pointer;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0);\n  transition: all .3s;\n}\n.navbar__list__item:hover {\n  background-color: #00000017;\n  transition: all .3s;\n}\n.navbar__list__search input {\n  width: 300px;\n  height: 20px;\n  border: none;\n  outline: none;\n  padding: 12px;\n  margin: 0 20px;\n  font-size: 18px;\n  background-color: #00000017;\n  transition: all .3s;\n}\n.navbar__list__search input:focus {\n  border-bottom: 2px;\n  background-color: rgba(0, 0, 0, 0);\n  box-shadow: 1 1px 2px #604E56;\n  transition: all .3s;\n}\n.navbar__list__search input:focus::placeholder {\n  font-size: 0;\n}\n", ""]);
 
 // exports
 
@@ -193,7 +231,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.landing-section-1 {\n  width: 100vw;\n  height: 100vh;\n  display: block;\n  cursor: default;\n}\n.landing-section-1 > img:first-child {\n  top: 0;\n  left: 0;\n  z-index: -1;\n  width: 100vw;\n  height: 100vh;\n  position: absolute;\n  filter: brightness(75%);\n}\n.landing-section-1 h1 {\n  top: 350px;\n  left: 210px;\n  color: #FFFFFF;\n  font-size: 48px;\n  position: absolute;\n}\n.landing-section-1 h4 {\n  top: 500px;\n  left: 210px;\n  color: #FFFFFF;\n  font-size: 20px;\n  position: absolute;\n}\n.landing-section-1 button {\n  top: 600px;\n  left: 210px;\n  border: none;\n  color: #FFFFFF;\n  cursor: pointer;\n  font-size: 16px;\n  border-radius: 5px;\n  padding: 15px 70px;\n  position: absolute;\n  text-transform: uppercase;\n  background-color: #EC9EEA;\n  transition: all .3s;\n}\n.landing-section-1 button:hover {\n  background-color: #FF6B98;\n  transition: all .3s;\n}\n.landing-section-1 .scroll-icon {\n  top: 95%;\n  left: 210px;\n  width: 280px;\n  color: #FFFFFF;\n  display: flex;\n  cursor: pointer;\n  font-size: 1.1em;\n  border-radius: 5px;\n  position: absolute;\n  align-items: center;\n  letter-spacing: 0.6em;\n  background-color: rgba(0, 0, 0, 0);\n  justify-content: space-between;\n  transition: all .3s;\n}\n.landing-section-1 .scroll-icon span {\n  width: 2em;\n  height: 2em;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 0.5px solid #FFFFFF;\n  border-radius: 100%;\n}\n.landing-section-1 .scroll-icon i {\n  width: 1em;\n}\n.landing-section-1 .scroll-icon:hover {\n  background-color: #00000017;\n  transition: all .3s;\n}\n", ""]);
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.landing-section-1 {\n  width: 100vw;\n  height: 100vh;\n  display: block;\n  cursor: default;\n}\n.landing-section-1 > img:first-child {\n  top: 0;\n  left: 0;\n  z-index: -1;\n  width: 100vw;\n  height: 100vh;\n  position: absolute;\n  filter: brightness(75%);\n}\n.landing-section-1 h1 {\n  top: 350px;\n  left: 210px;\n  color: #FFFFFF;\n  font-size: 48px;\n  position: absolute;\n}\n.landing-section-1 h4 {\n  top: 500px;\n  left: 210px;\n  color: #FFFFFF;\n  font-size: 20px;\n  position: absolute;\n}\n.landing-section-1 button {\n  top: 600px;\n  left: 210px;\n  position: absolute;\n}\n.landing-section-1 .scroll-icon {\n  top: 95%;\n  left: 210px;\n  width: 280px;\n  color: #FFFFFF;\n  display: flex;\n  cursor: pointer;\n  font-size: 1.1em;\n  border-radius: 5px;\n  position: absolute;\n  align-items: center;\n  letter-spacing: 0.6em;\n  background-color: rgba(0, 0, 0, 0);\n  justify-content: space-between;\n  transition: all .3s;\n}\n.landing-section-1 .scroll-icon span {\n  width: 2em;\n  height: 2em;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 0.5px solid #FFFFFF;\n  border-radius: 100%;\n}\n.landing-section-1 .scroll-icon i {\n  width: 1em;\n}\n.landing-section-1 .scroll-icon:hover {\n  background-color: #00000017;\n  transition: all .3s;\n}\n", ""]);
 
 // exports
 
@@ -212,7 +250,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.landing-starter {\n  display: flex;\n  padding: 50px 0;\n  align-items: center;\n  justify-content: center;\n}\n.landing-starter img {\n  width: 50%;\n}\n.landing-starter div {\n  width: 50%;\n  text-align: center;\n}\n.landing-starter div h2 {\n  color: #303030;\n  font-size: 50px;\n  font-weight: 100;\n  letter-spacing: .3em;\n}\n.landing-starter div h3 {\n  font-size: 16px;\n  color: #b6b6b5;\n  padding: 50px 0;\n  font-weight: 100;\n}\n.landing-starter div button {\n  border: none;\n  color: #FFFFFF;\n  cursor: pointer;\n  font-size: 16px;\n  border-radius: 5px;\n  padding: 15px 70px;\n  text-transform: uppercase;\n  background-color: #EC9EEA;\n  transition: all .3s;\n}\n.landing-starter div button:hover {\n  background-color: #FF6B98;\n  transition: all .3s;\n}\n", ""]);
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.landing-starter {\n  display: flex;\n  padding: 50px 0;\n  align-items: center;\n  justify-content: center;\n}\n.landing-starter img {\n  width: 50%;\n}\n.landing-starter div {\n  width: 50%;\n  text-align: center;\n}\n.landing-starter div h2 {\n  color: #303030;\n  font-size: 50px;\n  font-weight: 100;\n  letter-spacing: .3em;\n}\n.landing-starter div h3 {\n  font-size: 16px;\n  color: #b6b6b5;\n  padding: 50px 0;\n  font-weight: 100;\n}\n", ""]);
 
 // exports
 
@@ -231,7 +269,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.our-process {\n  width: 100vw;\n  display: flex;\n  flex-wrap: wrap;\n  padding: 60px 0;\n  line-height: 3.5em;\n  text-align: center;\n  align-items: center;\n  justify-content: center;\n}\n.our-process h2 {\n  width: 100%;\n  color: #303030;\n  font-size: 30px;\n  font-weight: 100;\n}\n.our-process h3 {\n  width: 100%;\n  font-size: 16px;\n  font-weight: 100;\n  color: #b6b6b5;\n}\n.our-process__services {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n}\n.our-process__services li {\n  font-size: 5em;\n  width: 250px;\n  padding: 15px 10px;\n  transition: all .3s;\n}\n.our-process__services li:hover {\n  color: #ec9eea;\n  transition: all .3s;\n}\n", ""]);
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.our-process {\n  width: 100vw;\n  display: flex;\n  flex-wrap: wrap;\n  padding: 60px 0;\n  line-height: 3.5em;\n  text-align: center;\n  align-items: center;\n  justify-content: center;\n}\n.our-process h2 {\n  width: 100%;\n  color: #303030;\n  font-size: 30px;\n  font-weight: 100;\n}\n.our-process h3 {\n  width: 100%;\n  font-size: 16px;\n  font-weight: 100;\n  color: #b6b6b5;\n}\n.our-process__services {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n}\n.our-process__services li {\n  font-size: 5em;\n  width: 250px;\n  padding: 15px 10px;\n  cursor: pointer;\n  transition: all .3s;\n}\n.our-process__services li:hover {\n  color: #ec9eea;\n  transition: all .3s;\n}\n", ""]);
 
 // exports
 
@@ -28199,9 +28237,15 @@ var _landingPageContainer = __webpack_require__(/*! ../containers/landingPageCon
 
 var _landingPageContainer2 = _interopRequireDefault(_landingPageContainer);
 
+var _generalStoreContainer = __webpack_require__(/*! ../containers/generalStoreContainer */ "./src/client/containers/generalStoreContainer.js");
+
+var _generalStoreContainer2 = _interopRequireDefault(_generalStoreContainer);
+
 var _notFoundPage = __webpack_require__(/*! ../components/notFoundPage */ "./src/client/components/notFoundPage/index.jsx");
 
 var _notFoundPage2 = _interopRequireDefault(_notFoundPage);
+
+var _global = __webpack_require__(/*! ./global */ "./src/client/components/global/index.js");
 
 __webpack_require__(/*! ./App.less */ "./src/client/components/App.less");
 
@@ -28219,8 +28263,10 @@ var App = function App() {
         _reactRouterDom.Switch,
         null,
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _landingPageContainer2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/generalStore', component: _generalStoreContainer2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { component: _notFoundPage2.default })
-      )
+      ),
+      _react2.default.createElement(_global.Footer, null)
     )
   );
 };
@@ -28252,6 +28298,220 @@ options.transform = transform
 options.insertInto = undefined;
 
 var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/client/components/generalStore/index.jsx":
+/*!******************************************************!*\
+  !*** ./src/client/components/generalStore/index.jsx ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(/*! ./index.less */ "./src/client/components/generalStore/index.less");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var GeneralStore = function (_Component) {
+  _inherits(GeneralStore, _Component);
+
+  function GeneralStore() {
+    _classCallCheck(this, GeneralStore);
+
+    var _this = _possibleConstructorReturn(this, (GeneralStore.__proto__ || Object.getPrototypeOf(GeneralStore)).call(this));
+
+    _this.state = {
+      ourServices: [{ title: 'Halls', logo: _react2.default.createElement('i', { className: 'fas fa-church' }) }, { title: 'Cars', logo: _react2.default.createElement('i', { className: 'fas fa-car' }) }, { title: 'Hair Dressers', logo: _react2.default.createElement('i', { className: 'fas fa-paint-brush' }) }, { title: 'Dresses', logo: _react2.default.createElement('i', { className: 'fas fa-female' }) }, { title: 'Invitations', logo: _react2.default.createElement('i', { className: 'fas fa-phone' }) }, { title: 'Cake', logo: _react2.default.createElement('i', { className: 'fas fa-birthday-cake' }) }, { title: 'DJs', logo: _react2.default.createElement('i', { className: 'fas fa-music' }) }, { title: 'Photographers', logo: _react2.default.createElement('i', { className: 'fas fa-camera-retro' }) }, { title: 'Videographers', logo: _react2.default.createElement('i', { className: 'fas fa-video' }) }, { title: 'Gifts', logo: _react2.default.createElement('i', { className: 'fas fa-gift' }) }]
+    };
+    return _this;
+  }
+
+  _createClass(GeneralStore, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'general-store' },
+        _react2.default.createElement('img', { className: 'background', src: '/assets/roses&rings-ho.jpg' }),
+        _react2.default.createElement(
+          'ul',
+          { className: 'services' },
+          this.state.ourServices.map(function (_ref, index) {
+            var title = _ref.title,
+                logo = _ref.logo;
+            return _react2.default.createElement(
+              'li',
+              { key: index },
+              _react2.default.createElement(
+                'span',
+                null,
+                logo
+              ),
+              _react2.default.createElement(
+                'span',
+                { className: 'tooltip' },
+                title
+              )
+            );
+          })
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'slideshow' },
+          _react2.default.createElement(
+            'ul',
+            { className: 'slideshow__wrapper' },
+            _react2.default.createElement(
+              'li',
+              null,
+              'First Slide'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Second Slide'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Third Slide'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Fourth Slide'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Fifth Slide'
+            )
+          )
+        ),
+        _react2.default.createElement('div', null)
+      );
+    }
+  }]);
+
+  return GeneralStore;
+}(_react.Component);
+
+exports.default = GeneralStore;
+
+/***/ }),
+
+/***/ "./src/client/components/generalStore/index.less":
+/*!*******************************************************!*\
+  !*** ./src/client/components/generalStore/index.less ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/less-loader/dist/cjs.js!./index.less */ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/generalStore/index.less");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/client/components/global/button/index.jsx":
+/*!*******************************************************!*\
+  !*** ./src/client/components/global/button/index.jsx ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(/*! ./index.less */ "./src/client/components/global/button/index.less");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (props) {
+  var _props$size = props.size,
+      size = _props$size === undefined ? 'default' : _props$size,
+      children = props.children;
+
+  return _react2.default.createElement(
+    'button',
+    { className: 'btn ' + size },
+    children
+  );
+};
+
+/***/ }),
+
+/***/ "./src/client/components/global/button/index.less":
+/*!********************************************************!*\
+  !*** ./src/client/components/global/button/index.less ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/less-loader/dist/cjs.js!./index.less */ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/client/components/global/button/index.less");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -28486,17 +28746,17 @@ exports.default = function (props) {
         _react2.default.createElement(
           'span',
           null,
-          _react2.default.createElement('i', { 'class': 'fab fa-facebook' })
+          _react2.default.createElement('i', { className: 'fab fa-facebook' })
         ),
         _react2.default.createElement(
           'span',
           null,
-          _react2.default.createElement('i', { 'class': 'fab fa-twitter' })
+          _react2.default.createElement('i', { className: 'fab fa-twitter' })
         ),
         _react2.default.createElement(
           'span',
           null,
-          _react2.default.createElement('i', { 'class': 'fab fa-github' })
+          _react2.default.createElement('i', { className: 'fab fa-github' })
         )
       )
     )
@@ -28532,6 +28792,33 @@ var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/li
 if(content.locals) module.exports = content.locals;
 
 if(false) {}
+
+/***/ }),
+
+/***/ "./src/client/components/global/index.js":
+/*!***********************************************!*\
+  !*** ./src/client/components/global/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _footer = __webpack_require__(/*! ./footer */ "./src/client/components/global/footer/index.js");
+
+var _footer2 = _interopRequireDefault(_footer);
+
+var _button = __webpack_require__(/*! ./button */ "./src/client/components/global/button/index.jsx");
+
+var _button2 = _interopRequireDefault(_button);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = {
+  Footer: _footer2.default,
+  Button: _button2.default
+};
 
 /***/ }),
 
@@ -28701,6 +28988,8 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _global = __webpack_require__(/*! ../../global */ "./src/client/components/global/index.js");
+
 __webpack_require__(/*! ./index.less */ "./src/client/components/landingpage/contactUs/index.less");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -28727,8 +29016,8 @@ exports.default = function (props) {
       _react2.default.createElement('input', { type: 'text', placeholder: 'Email *' }),
       _react2.default.createElement('textarea', { placeholder: 'Enter Your Message' }),
       _react2.default.createElement(
-        'button',
-        null,
+        _global.Button,
+        { size: 'large' },
         'Send'
       )
     )
@@ -28807,10 +29096,6 @@ var _index9 = __webpack_require__(/*! ./contactUs/index.jsx */ "./src/client/com
 
 var _index10 = _interopRequireDefault(_index9);
 
-var _footer = __webpack_require__(/*! ../global/footer */ "./src/client/components/global/footer/index.js");
-
-var _footer2 = _interopRequireDefault(_footer);
-
 __webpack_require__(/*! ./index.less */ "./src/client/components/landingpage/index.less");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -28845,8 +29130,7 @@ var LandingPage = function (_React$Component) {
         _react2.default.createElement(_index4.default, { services: this.state.ourServices }),
         _react2.default.createElement(_index6.default, null),
         _react2.default.createElement(_index8.default, null),
-        _react2.default.createElement(_index10.default, null),
-        _react2.default.createElement(_footer2.default, null)
+        _react2.default.createElement(_index10.default, null)
       );
     }
   }]);
@@ -28906,6 +29190,8 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _global = __webpack_require__(/*! ../../global */ "./src/client/components/global/index.js");
+
 __webpack_require__(/*! ./index.less */ "./src/client/components/landingpage/landingSectionA/index.less");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -28928,8 +29214,8 @@ exports.default = function () {
       'Hera planner saves your time, money and lots of effort'
     ),
     _react2.default.createElement(
-      'button',
-      null,
+      _global.Button,
+      { size: 'large' },
       'Let\'s start'
     ),
     _react2.default.createElement(
@@ -28995,6 +29281,8 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _global = __webpack_require__(/*! ../../global */ "./src/client/components/global/index.js");
+
 __webpack_require__(/*! ./index.less */ "./src/client/components/landingpage/landingStarter/index.less");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -29043,8 +29331,8 @@ exports.default = function (props) {
         )
       ),
       _react2.default.createElement(
-        'button',
-        null,
+        _global.Button,
+        { size: 'large' },
         'Get started'
       )
     )
@@ -29302,6 +29590,38 @@ var GET_AVATAR_FAIL = exports.GET_AVATAR_FAIL = 'GET_AVATAR_FAIL';
 
 /***/ }),
 
+/***/ "./src/client/containers/generalStoreContainer.js":
+/*!********************************************************!*\
+  !*** ./src/client/containers/generalStoreContainer.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _generalStore = __webpack_require__(/*! ../components/generalStore */ "./src/client/components/generalStore/index.jsx");
+
+var _generalStore2 = _interopRequireDefault(_generalStore);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var mapStateToProps = function mapStateToProps(state) {
+  return {};
+};
+
+var mapDispatchToProps = {};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_generalStore2.default);
+
+/***/ }),
+
 /***/ "./src/client/containers/landingPageContainer.js":
 /*!*******************************************************!*\
   !*** ./src/client/containers/landingPageContainer.js ***!
@@ -29345,7 +29665,7 @@ exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
@@ -29359,14 +29679,14 @@ var _navbarActions = __webpack_require__(/*! ../actions/navbarActions */ "./src/
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var mapStateToProps = function mapStateToProps(state) {
-    return {
-        isCollapsed: state.navbarReducer.isCollapsed
-    };
+  return {
+    isCollapsed: state.navbarReducer.isCollapsed
+  };
 };
 
 var mapDispatchToProps = {
-    navbarCollapse: _navbarActions.navbarCollapse,
-    navbarReveal: _navbarActions.navbarReveal
+  navbarCollapse: _navbarActions.navbarCollapse,
+  navbarReveal: _navbarActions.navbarReveal
 };
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_navbar2.default);

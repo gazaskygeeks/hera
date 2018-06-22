@@ -2,7 +2,7 @@ import React from 'react';
 
 import './index.less';
 
-export default (props) => (
+export default props => (
   <div className="footer">
     <ul>
       <li><strong>Pages</strong></li>
@@ -38,9 +38,9 @@ export default (props) => (
       <li><strong>Social</strong></li>
       <li className="seperator" />
       <li>
-        <span><i class="fab fa-facebook"/></span>
-        <span><i class="fab fa-twitter"/></span>
-        <span><i class="fab fa-github"/></span>
+        <span><i className="fab fa-facebook" /></span>
+        <span><i className="fab fa-twitter" /></span>
+        <span><i className="fab fa-github" /></span>
       </li>
     </ul>
   </div>

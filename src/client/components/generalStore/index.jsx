@@ -1,12 +1,7 @@
-import React from 'react';
-import SectionA from './landingSectionA/index.jsx';
-import OurProcess from './ourProcess/index.jsx';
-import LandingStarter from './landingStarter/index.jsx';
-import SiteQoute from './siteQoute/index.jsx';
-import ContactUs from './contactUs/index.jsx';
+import React, { Component } from 'react';
 import './index.less';
 
-class LandingPage extends React.Component {
+class GeneralStore extends Component {
   constructor() {
     super();
     this.state = {
@@ -28,14 +23,28 @@ class LandingPage extends React.Component {
 
   render() {
     return (
-      <div>
-        <SectionA />
-        <OurProcess services={this.state.ourServices} />
-        <LandingStarter />
-        <SiteQoute />
-        <ContactUs />
+      <div className="general-store">
+        <img className="background" src="/assets/roses&rings-ho.jpg" />
+        <ul className="services">
+          {
+            this.state.ourServices
+            .map(({ title, logo }, index) => (<li key={index}><span>{logo}</span><span className="tooltip">{title}</span></li>))}
+        </ul>
+        <div className="slideshow">
+          <ul className="slideshow__wrapper">
+            <li>First Slide</li>
+            <li>Second Slide</li>
+            <li>Third Slide</li>
+            <li>Fourth Slide</li>
+            <li>Fifth Slide</li>
+          </ul>
+        </div>
+        <div>
+          
+        </div>
       </div>
     );
   }
 }
-export default LandingPage;
+
+export default GeneralStore;
