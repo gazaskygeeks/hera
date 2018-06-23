@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Progress } from 'antd';
 import CartItem from './cart-item';
+import 'antd/dist/antd.less';
 
 import './index.less';
 
@@ -17,15 +18,13 @@ class Dashboard extends Component {
           <div className="progress">
             <Progress percent={75} status="active" />
           </div>
-          <div className="cartItem" style={{width:'80%'}}>
-            <CartItem/>
-            <CartItem/>
-            <CartItem/>
+          <div className="cartItem" style={{ width: '80%' }}>
+            <CartItem />
+            <CartItem />
+            <CartItem />
           </div>
         </div>
-        <div>
-
-        </div>
+        <div />
       </div>
     );
   }
