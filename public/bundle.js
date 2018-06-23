@@ -117,7 +117,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.general-store .background {\n  top: 0;\n  right: 0;\n  opacity: .5;\n  z-index: -1;\n  width: 100vw;\n  height: 768px;\n  position: absolute;\n}\n.general-store .services {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(255, 255, 255, 0.5);\n}\n.general-store .services li {\n  width: 19%;\n  height: 55px;\n  padding: 0 5px;\n  font-size: 20px;\n  text-align: center;\n  cursor: pointer;\n  transition: all .3s;\n}\n.general-store .services li span {\n  display: block;\n}\n.general-store .services li:hover {\n  font-size: 22px;\n  transition: all .3s;\n}\n.general-store .services li:hover .tooltip {\n  top: 0;\n  font-size: 16px;\n  cursor: default;\n  user-select: none;\n  color: #000000;\n  position: relative;\n  transition: all .3s;\n}\n.general-store .services li .tooltip {\n  top: -20px;\n  color: rgba(0, 0, 0, 0);\n  transition: all .3s;\n}\n.general-store .slideshow {\n  overflow: hidden;\n  height: 400px;\n  width: 728px;\n  margin: 90px auto;\n}\n.general-store .slideshow__wrapper {\n  width: 3640px;\n  -webkit-animation: slide 48s ease infinite;\n}\n@keyframes slide {\n  10% {\n    margin-left: 0px;\n  }\n  20% {\n    margin-left: -728px;\n  }\n  30% {\n    margin-left: -728px;\n  }\n  40% {\n    margin-left: -1456px;\n  }\n  50% {\n    margin-left: -1456px;\n  }\n  60% {\n    margin-left: -2184px;\n  }\n  70% {\n    margin-left: -2184px;\n  }\n  80% {\n    margin-left: -2912px;\n  }\n  90% {\n    margin-left: -2912px;\n  }\n}\n.general-store .slideshow__wrapper li {\n  float: left;\n  height: 400px;\n  width: 728px;\n}\n.general-store .slideshow__wrapper li:nth-child(1) {\n  background-color: #D93B65;\n}\n.general-store .slideshow__wrapper li:nth-child(2) {\n  background-color: #037E8C;\n}\n.general-store .slideshow__wrapper li:nth-child(3) {\n  background-color: #36BF66;\n}\n.general-store .slideshow__wrapper li:nth-child(4) {\n  background-color: #356a76;\n}\n.general-store .slideshow__wrapper li:nth-child(5) {\n  background-color: #D51a06;\n}\n", ""]);
+exports.push([module.i, "/*      COLORS       */\n/*      SCREENS       */\n/*      FUNCTION      */\n/*    GLOBAL CLASSES   */\n.red-pink {\n  color: #FF6B98;\n}\n.purple-pink {\n  color: #EC9EEA;\n}\n/*    SCROLLBAR       */\n/* width */\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar:hover {\n  width: 8px;\n}\n/* Track */\n::-webkit-scrollbar-track {\n  color: white;\n}\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #FF6B98;\n  border-radius: 10px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #EF5B88;\n}\n.general-store .background {\n  top: 0;\n  right: 0;\n  opacity: .5;\n  z-index: -1;\n  width: 100vw;\n  height: 768px;\n  position: absolute;\n}\n.general-store .services {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(255, 255, 255, 0.5);\n}\n.general-store .services li {\n  width: 19%;\n  height: 55px;\n  padding: 0 5px;\n  font-size: 32px;\n  text-align: center;\n  cursor: pointer;\n  transition: all .3s;\n}\n.general-store .services li span {\n  display: block;\n}\n.general-store .services li:hover {\n  font-size: 22px;\n  transition: all .3s;\n}\n.general-store .services li:hover .tooltip {\n  top: 0;\n  font-size: 16px;\n  cursor: default;\n  user-select: none;\n  color: #000000;\n  position: relative;\n  transition: all .3s;\n}\n.general-store .services li .tooltip {\n  top: -20px;\n  color: rgba(0, 0, 0, 0);\n  transition: all .3s;\n}\n.general-store .slideshow {\n  overflow: hidden;\n  height: 400px;\n  width: 728px;\n  margin: 90px auto;\n}\n.general-store .slideshow__wrapper {\n  width: 3640px;\n  -webkit-animation: slide 48s ease infinite;\n}\n@keyframes slide {\n  10% {\n    margin-left: 0px;\n  }\n  20% {\n    margin-left: -728px;\n  }\n  30% {\n    margin-left: -728px;\n  }\n  40% {\n    margin-left: -1456px;\n  }\n  50% {\n    margin-left: -1456px;\n  }\n  60% {\n    margin-left: -2184px;\n  }\n  70% {\n    margin-left: -2184px;\n  }\n  80% {\n    margin-left: -2912px;\n  }\n  90% {\n    margin-left: -2912px;\n  }\n}\n.general-store .slideshow__wrapper li {\n  float: left;\n  height: 400px;\n  width: 728px;\n}\n.general-store .slideshow__wrapper li:nth-child(1) {\n  background-color: #D93B65;\n}\n.general-store .slideshow__wrapper li:nth-child(2) {\n  background-color: #037E8C;\n}\n.general-store .slideshow__wrapper li:nth-child(3) {\n  background-color: #36BF66;\n}\n.general-store .slideshow__wrapper li:nth-child(4) {\n  background-color: #356a76;\n}\n.general-store .slideshow__wrapper li:nth-child(5) {\n  background-color: #D51a06;\n}\n.general-store .shop {\n  padding: 50px 150px;\n  min-height: 300px;\n}\n.general-store .shop__filter {\n  display: flex;\n  font-size: 24px;\n  padding: 5px 10px;\n  border-radius: 15px;\n  background-color: #EF6C98;\n  justify-content: space-between;\n}\n.general-store .shop__filter > div {\n  width: 100%;\n  height: 100%;\n}\n.general-store .shop__filter__list {\n  height: 0;\n  display: flex;\n  overflow: hidden;\n  position: absolute;\n  text-align: center;\n  border-radius: 15px;\n  background: #EF6C98;\n  flex-direction: column;\n  transition: all .3s;\n}\n.general-store .shop__filter__list label {\n  padding: 5px 20px;\n}\n.general-store .shop__filter__list label:hover,\n.general-store .shop__filter__list label:focus,\n.general-store .shop__filter__list label:active {\n  background: white;\n}\n.general-store .shop__filter__list label:nth-child(2) {\n  border-top-left-radius: 15px;\n  border-top-right-radius: 15px;\n}\n.general-store .shop__filter__list label:nth-child(4) {\n  border-bottom-left-radius: 15px;\n  border-bottom-right-radius: 15px;\n}\n.general-store .shop__filter__list input {\n  width: 0;\n  height: 0;\n}\n.general-store .shop__filter__list input[type=\"radio\"]:active + label {\n  opacity: 1;\n}\n.general-store .shop__filter__list input[type=\"radio\"]:checked + label {\n  background-color: #00BFFF;\n}\n.general-store .shop__filter__list.visible {\n  height: 78px;\n  transition: all .3s;\n}\n", ""]);
 
 // exports
 
@@ -28344,12 +28344,26 @@ var GeneralStore = function (_Component) {
     var _this = _possibleConstructorReturn(this, (GeneralStore.__proto__ || Object.getPrototypeOf(GeneralStore)).call(this));
 
     _this.state = {
-      ourServices: [{ title: 'Halls', logo: _react2.default.createElement('i', { className: 'fas fa-church' }) }, { title: 'Cars', logo: _react2.default.createElement('i', { className: 'fas fa-car' }) }, { title: 'Hair Dressers', logo: _react2.default.createElement('i', { className: 'fas fa-paint-brush' }) }, { title: 'Dresses', logo: _react2.default.createElement('i', { className: 'fas fa-female' }) }, { title: 'Invitations', logo: _react2.default.createElement('i', { className: 'fas fa-phone' }) }, { title: 'Cake', logo: _react2.default.createElement('i', { className: 'fas fa-birthday-cake' }) }, { title: 'DJs', logo: _react2.default.createElement('i', { className: 'fas fa-music' }) }, { title: 'Photographers', logo: _react2.default.createElement('i', { className: 'fas fa-camera-retro' }) }, { title: 'Videographers', logo: _react2.default.createElement('i', { className: 'fas fa-video' }) }, { title: 'Gifts', logo: _react2.default.createElement('i', { className: 'fas fa-gift' }) }]
+      ourServices: [{ title: 'Halls', logo: _react2.default.createElement('i', { className: 'fas fa-church' }) }, { title: 'Cars', logo: _react2.default.createElement('i', { className: 'fas fa-car' }) }, { title: 'Hair Dressers', logo: _react2.default.createElement('i', { className: 'fas fa-paint-brush' }) }, { title: 'Dresses', logo: _react2.default.createElement('i', { className: 'fas fa-female' }) }, { title: 'Invitations', logo: _react2.default.createElement('i', { className: 'fas fa-phone' }) }, { title: 'Cake', logo: _react2.default.createElement('i', { className: 'fas fa-birthday-cake' }) }, { title: 'DJs', logo: _react2.default.createElement('i', { className: 'fas fa-music' }) }, { title: 'Photographers', logo: _react2.default.createElement('i', { className: 'fas fa-camera-retro' }) }, { title: 'Videographers', logo: _react2.default.createElement('i', { className: 'fas fa-video' }) }, { title: 'Gifts', logo: _react2.default.createElement('i', { className: 'fas fa-gift' }) }],
+      filters: {
+        category: undefined,
+        price: undefined,
+        popularity: undefined,
+        collections: undefined
+      }
     };
+    _this.openFilterList = _this.openFilterList.bind(_this);
     return _this;
   }
 
   _createClass(GeneralStore, [{
+    key: 'openFilterList',
+    value: function openFilterList(_ref) {
+      var target = _ref.target;
+
+      target.nextSibling.classList.toggle('visible');
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -28359,9 +28373,9 @@ var GeneralStore = function (_Component) {
         _react2.default.createElement(
           'ul',
           { className: 'services' },
-          this.state.ourServices.map(function (_ref, index) {
-            var title = _ref.title,
-                logo = _ref.logo;
+          this.state.ourServices.map(function (_ref2, index) {
+            var title = _ref2.title,
+                logo = _ref2.logo;
             return _react2.default.createElement(
               'li',
               { key: index },
@@ -28411,7 +28425,77 @@ var GeneralStore = function (_Component) {
             )
           )
         ),
-        _react2.default.createElement('div', null)
+        _react2.default.createElement(
+          'div',
+          { className: 'shop' },
+          _react2.default.createElement(
+            'div',
+            { className: 'shop__filter' },
+            _react2.default.createElement(
+              'div',
+              { className: 'shop__filter__cat' },
+              _react2.default.createElement(
+                'span',
+                { className: 'shop__filter__title', onClick: this.openFilterList },
+                'Category',
+                ' ',
+                _react2.default.createElement('i', { className: 'fas fa-caret-down' })
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'shop__filter__list' },
+                _react2.default.createElement('input', { type: 'radio', name: 'cat-filter', id: 'cat-filter-1', value: 'all' }),
+                _react2.default.createElement(
+                  'label',
+                  { htmlFor: 'cat-filter-1' },
+                  'All'
+                ),
+                _react2.default.createElement('input', { type: 'radio', name: 'cat-filter', id: 'cat-filter-2', value: 'dresses' }),
+                _react2.default.createElement(
+                  'label',
+                  { htmlFor: 'cat-filter-2' },
+                  'Dresses'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'shop__filter__price' },
+              _react2.default.createElement(
+                'span',
+                { className: 'shop__filter__title', onClick: this.openFilterList },
+                'Price',
+                ' ',
+                _react2.default.createElement('i', { className: 'fas fa-caret-down' })
+              ),
+              _react2.default.createElement('div', { className: 'shop__filter__list' })
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'shop__filter__pop' },
+              _react2.default.createElement(
+                'span',
+                { className: 'shop__filter__title', onClick: this.openFilterList },
+                'Popularity',
+                ' ',
+                _react2.default.createElement('i', { className: 'fas fa-caret-down' })
+              ),
+              _react2.default.createElement('div', { className: 'shop__filter__list' })
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'shop__filter__collections' },
+              _react2.default.createElement(
+                'span',
+                { className: 'shop__filter__title', onClick: this.openFilterList },
+                'Collection',
+                ' ',
+                _react2.default.createElement('i', { className: 'fas fa-caret-down' })
+              ),
+              _react2.default.createElement('div', { className: 'shop__filter__list' })
+            )
+          )
+        )
       );
     }
   }]);
