@@ -29,6 +29,7 @@ CREATE TABLE shop_items (
 	location VARCHAR NOT NULL,
 	description VARCHAR NOT NULL,
 	category VARCHAR NOT NULL,
+	image_url VARCHAR,
 	rating REAL NOT NULL DEFAULT '0'
 );
 
