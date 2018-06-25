@@ -4,9 +4,20 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const controllers = require('./controllers/mainController');
+const dbBuild = require('./database/dbBuild');
 
 const app = express();
-
+switch (process.env.ENV) {
+  case 'testing':
+    break;
+  case 'production':
+    break;
+  case 'development':
+    dbBuild();
+    break;
+  default:
+    throw new Error('No env set');
+}
 app.use(morgan('dev'));
 app.use(cookieParser());
 app.set('port', process.env.PORT || 4000);
