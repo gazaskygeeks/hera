@@ -36,13 +36,13 @@ CREATE TABLE shop_items (
 CREATE TABLE carts_items (
 	id SERIAL PRIMARY KEY NOT NULL,
 	cart_id INTEGER NOT NULL REFERENCES users_carts (id),
-	shop_item_id INTEGER NOT NULL REFERENCES shop_item (id)
+	shop_item_id INTEGER NOT NULL REFERENCES shop_items (id)
 );
 
 CREATE TABLE providers_shop_items (
 	id SERIAL PRIMARY KEY NOT NULL,
 	provider_id INTEGER NOT NULL REFERENCES providers (id),
-	shop_item_id INTEGER NOT NULL REFERENCES shop_item (id)
+	shop_item_id INTEGER NOT NULL REFERENCES shop_items (id)
 );
 
 CREATE TABLE todos (
