@@ -102,11 +102,8 @@ class GeneralStore extends Component {
   }
 
   render() {
-    console.log(this.state.cardData);
-    console.log('<!--------------Render--------------!>');
     const { data, isFetching } = this.props;
     const { cardData } = this.state;
-    console.log('sdssda', cardData);
     if (isFetching) return <Spin indicator={<Icon type="loading" style={{ fontSize: 24 }} spin />} />;
     return (
       <div className="general-store">

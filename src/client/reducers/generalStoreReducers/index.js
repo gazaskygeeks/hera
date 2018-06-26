@@ -23,7 +23,6 @@ export default (state = initialState, { type, data, filters }) => {
       ...state,
       isFetching: false,
       data
-
     };
     case GET_SHOP_ITEMS_FAIL: return {
       ...state,
