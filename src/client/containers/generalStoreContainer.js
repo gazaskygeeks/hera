@@ -1,16 +1,19 @@
 import { connect } from 'react-redux';
 
 import GeneralStore from '../components/generalStore';
-import getItemsByFilter, { modifyFilters } from '../actions/generalStoreActions';
+import { modifyFilters, getItemsByFilter, postAddToCart } from '../actions/generalStoreActions';
 
 const mapStateToProps = state => ({
   isFetching: state.generalStoreReducers.isFetching,
+  filters: state.generalStoreReducers.filters,
   data: state.generalStoreReducers.data,
-  filters: state.generalStoreReducers.filters
+  itemId: state.generalStoreReducers.id,
+  [console.log(state.generalStoreReducers)]: 'a'
 });
 
 const mapDispatchToProps = {
   getItemsByFilter,
+  postAddToCart,
   modifyFilters
 };
 
