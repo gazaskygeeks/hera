@@ -27,6 +27,8 @@ module.exports = {
             options: {
               javascriptEnabled: true
             }
+          }
+        ]
           }]
       },
       {
