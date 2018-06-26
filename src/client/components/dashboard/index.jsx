@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Progress } from 'antd';
-import CartItem from './cart-item';
+import CartItem from './cartItem';
 import 'antd/dist/antd.less';
 
 import './index.less';
