@@ -4,5 +4,5 @@ import './index.less';
 
 export default (props) => {
   const { size = 'default', children } = props;
-  return <button className={`btn ${size}`}>{children}</button>;
+  return <a href='/tools'><button className={`btn ${size}`}>{children}</button></a>;
 };
