@@ -42,6 +42,23 @@ class Dashboard extends Component {
     <div className="checklist">
       <img className="background" src="/assets/wedding.png" />
       <div className="checklist-body">
+        <Popover
+          title="Todo title"
+          trigger="click"
+          content={(
+            <div>
+              <Input placeholder="Enter task name" onChange={this.handleNewTaskChange} />
+              <Button onClick={this._addChecklistItem}>
+                Add
+              </Button>
+            </div>
+              )
+            }
+        >
+          <Button>
+            Add new task
+          </Button>
+        </Popover>
         <div className="tasks">
           <div className="tasks-div">
             <h5>25 Task Remaining</h5>
