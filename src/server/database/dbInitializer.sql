@@ -76,4 +76,9 @@ INSERT INTO users (email, username, password, dob) VALUES ('smartname@fakemail.c
 INSERT INTO users_carts (user_id, user_on_cart_access) VALUES (1, 'EDIT');
 INSERT INTO carts_items (cart_id, shop_item_id) VALUES (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6);
 INSERT INTO todos (user_id) VALUES (1);
-INSERT INTO checklist_item (value, checked, todo_id) VALUES ('Get the dresses from ABC on TURESDAY at 4:15pm', false, 1);
+INSERT INTO checklist_item (value, checked, todo_id) VALUES
+('Get the dresses from ABC on TURESDAY at 4:15pm', false, 1),
+('Get the dresses from ABC on TURESDAY at 4:15pm', false, 1),
+('Get the dresses from ABC on TURESDAY at 4:15pm', false, 1),
+('Get the dresses from ABC on TURESDAY at 4:15pm', false, 1),
+('Get the dresses from ABC on TURESDAY at 4:15pm', false, 1);
