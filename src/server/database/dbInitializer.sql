@@ -74,3 +74,4 @@ INSERT INTO shop_items (name, image_url, price_value, price_currency, location, 
 
 INSERT INTO users (email, username, password, dob) VALUES ('smartname@fakemail.co', 'smartest ever', 'password123', '1993-01-13');
 INSERT INTO users_carts (user_id, user_on_cart_access) VALUES (1, 'EDIT');
+INSERT INTO carts_items (cart_id, shop_item_id) VALUES (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6); 
