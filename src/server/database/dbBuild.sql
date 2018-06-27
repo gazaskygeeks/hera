@@ -24,6 +24,8 @@ CREATE TABLE providers (
 CREATE TABLE shop_items (
   id SERIAL PRIMARY KEY NOT NULL,
 	name VARCHAR NOT NULL,
+	providers_name VARCHAR NOT NULL,
+	item_size VARCHAR NOT NULL,
 	price_value INTEGER NOT NULL,
 	price_currency VARCHAR NOT NULL,
 	location VARCHAR NOT NULL,
