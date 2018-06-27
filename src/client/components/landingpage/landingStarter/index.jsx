@@ -4,7 +4,7 @@ import './index.less';
 
 export default props => (
   <div className="landing-starter">
-    <video autoPlay loop>
+    <video autoPlay loop muted>
       <source src="/assets/video.mp4" type="video/mp4" />
     </video>
     <div>

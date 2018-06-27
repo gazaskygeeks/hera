@@ -7,8 +7,7 @@ const mapStateToProps = state => ({
   isFetching: state.generalStoreReducers.isFetching,
   filters: state.generalStoreReducers.filters,
   data: state.generalStoreReducers.data,
-  itemId: state.generalStoreReducers.id,
-  [console.log(state.generalStoreReducers)]: 'a'
+  itemId: state.generalStoreReducers.id
 });
 
 const mapDispatchToProps = {

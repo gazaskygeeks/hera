@@ -1,79 +1,47 @@
-INSERT INTO shop_items (name, image_url, price_value, price_currency, location, description, category, rating)
+INSERT INTO shop_items (name, image_url, price_value, price_currency, location,providers_name, description,item_size, category, rating)
   VALUES
   (
-    'Dress-A', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 2.5
-  ), (
-    'Dress-B', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-C', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-D', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-E', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-F', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-G', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-H', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-I', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-J', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-K', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-L', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-M', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-N', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-O', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-P', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Dress-Q', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'dresses', 3.5
-  ), (
-    'Mercedece', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'BMW', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Mazda', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Kia', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Hyondye', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Honda', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Jeep', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Four seasons', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Quitest Place', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Landfil', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Above the Efil twoer', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Some tall fancy building', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Some tall fancy skycreeper', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Dimension C-137', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Toka', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Landmark', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Montazah', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
-  ), (
-    'Only rich people allowed', 'http://mancavehost.com/wp-content/uploads/2017/09/10Pcs-Umbrella-Corporation-3D-Aluminum-Sticker-Car-Sticker-For-Cars-Motorcycl.jpg',299, 'USD', 'Gaza', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'cars', 3.5
+    'A-line', 'http://img2.ailsabridal.com/product/80157/9afe95a8-5489-4a2c-982f-81f7da9f588b-550-768.jpg',399, 'USD', 'Gaza', 'Ajml tala center', 'most populer dress it is suitable for all bodies and take the alphapet A shape', 'XL', 'dresses', 2.5
+  ),
+  (
+    'Ballgown', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',1400, 'USD', 'Gaza', 'Safeer AlHob center', 'princess dress suitable with taller brides', 'L', 'dresses', 4
+  ),
+  (
+    'trumpet', 'http://www.allurebridals.com/assets/1550/7_c491-h-ad2.jpg',4500, 'USD', 'Gaza', 'AlDahdouh center', '
+It takes the shape of the body from the top and then tightens the tightness and then gradually expands downwards and is ideal for hiding body imperfections', 'L', 'dresses', 3
+  ),
+  (
+    'sheath', 'http://www.allurebridals.com/assets/1550/7_C501F.jpg',4700, 'USD', 'Gaza', 'Lavayte Center', '
+Fits the high-end bride', 'XL', 'dresses', 3
+  ),
+  (
+    'Empire dress', 'http://www.allurebridals.com/assets/1550/7_C489TF.jpg',399, 'USD', 'Gaza', 'Ajml tala center', '
+Dress tight down the chest rotation and drop down after chest wide down', 'XL', 'dresses', 4
+  ),
+  (
+    'A-line', 'http://www.allurebridals.com/assets/1550/3154F.jpg', 800, 'USD', 'Gaza', 'AlAshi Center', 'most populer dress it is suitable for all bodies and take the alphapet A shape', 'XL', 'dresses', 3
+  ),
+  (
+    'Ballgown', 'https://scontent.fgza2-1.fna.fbcdn.net/v/t1.0-9/16386877_1375769982498520_3095082902521109894_n.jpg',1000, 'USD', 'Gaza', 'Rozalenda Center', 'princess dress suitable with taller brides', 'L', 'dresses', 4
+  ),
+  (
+    'Empire dresst', 'https://scontent.fgza2-1.fna.fbcdn.net/v/t1.0-9/23659507_1126877590780331_3939526216280339064_n.jpg',399, 'USD', 'Gaza', 'White Dream Center', 'Dress tight down the chest rotation and drop down after chest wide down', 'L', 'dresses', 3
+  ),
+  (
+    'sheath', 'https://cdn.shopify.com/s/files/1/0563/0457/products/blush-hayley-paige-bridal-spring-2018-style-1807-nessy_7_800x.jpg?v=1512516772',4000, 'USD', 'Gaza', 'AlGammal center', 'Fits the high-end bride', 'XL', 'dresses', 4
+  ),
+  (
+    'Empire dress', 'http://www.fshoppers.com/wp-content/uploads/2016/08/Glamorous-White-Round-Neck-Solid-Floor-Length-Wedding-Dress-For-Women.jpg',5000, 'USD', 'Gaza', 'zaghroota.fashion', '
+Dress tight down the chest rotation and drop down after chest wide down', 'XL', 'dresses', 4
   );
 
-INSERT INTO users (email, username, password, dob) VALUES ('smartname@fakemail.co', 'smartest ever', 'password123', '1993-01-13');
-INSERT INTO users_carts (user_id, user_on_cart_access) VALUES (1, 'EDIT');
-INSERT INTO carts_items (cart_id, shop_item_id) VALUES (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6);
-INSERT INTO todos (user_id) VALUES (1);
-INSERT INTO checklist_item (value, checked, todo_id) VALUES ('Get the dresses from ABC on TURESDAY at 4:15pm', false, 1);
+  INSERT INTO users (email, username, password, dob) VALUES ('smartname@fakemail.co', 'smartest ever', 'password123', '1993-01-13');
+  INSERT INTO users_carts (user_id, user_on_cart_access) VALUES (1, 'EDIT');
+  INSERT INTO carts_items (cart_id, shop_item_id) VALUES (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6);
+  INSERT INTO todos (user_id) VALUES (1);
+  INSERT INTO checklist_item (value, checked, todo_id) VALUES
+  ('Get the dresses from ABC on TURESDAY at 4:15pm', false, 1),
+  ('Get the dresses from ABC on TURESDAY at 4:15pm', false, 1),
+  ('Get the dresses from ABC on TURESDAY at 4:15pm', false, 1),
+  ('Get the dresses from ABC on TURESDAY at 4:15pm', false, 1),
+  ('Get the dresses from ABC on TURESDAY at 4:15pm', false, 1);

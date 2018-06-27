@@ -2,7 +2,6 @@ const { Pool } = require('pg');
 require('env2')('./.config.env');
 
 const env = process.env.ENV;
-
 const dbUrl = env === 'testing'
   ? process.env.TEST_DB_URL
   : env === 'production'
