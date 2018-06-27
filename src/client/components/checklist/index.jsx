@@ -42,6 +42,8 @@ class Dashboard extends Component {
     <div className="checklist">
       <img className="background" src="/assets/wedding.png" />
       <div className="checklist-body">
+        <div>
+          AddTodo
         <Popover
           title="Todo title"
           trigger="click"
@@ -59,6 +61,7 @@ class Dashboard extends Component {
             Add new task
           </Button>
         </Popover>
+        </div>
         <div className="tasks">
           <div className="tasks-div">
             <h5>25 Task Remaining</h5>
