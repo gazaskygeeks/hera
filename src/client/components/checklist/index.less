@@ -1,0 +1,51 @@
+@import "../global/index.less";
+@import '../global/antd.css';
+.checklist {
+  & .background {
+    filter: brightness(60%);
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 600px;
+    position: absolute;
+  }
+  & .checklist-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 300px;
+    height: 700px;
+  }
+  & .tasks {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  & .tasks-div {
+    width: 131.33px;
+    height: 78.83px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e24260;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  & .tasks {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  & .task-icons {
+    width: 134px;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+}
