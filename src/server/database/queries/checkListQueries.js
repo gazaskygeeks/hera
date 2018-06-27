@@ -1,13 +1,11 @@
 const dbConnection = require('../dbConnection');
 
-const getChecklistItems = (cb) => {
+const getChecklistItems = ({ todoId = 1 }, cb) => {
   const queryText = {
     text: "SELECT * FROM checklist_item WHERE todo_id=$1",
     values: [1]
   };
   dbConnection.query(queryText, (dbErr, dbRes) => {
-    console.log(dbErr,'err');
-    console.log(dbRes.rows,'result');
     if (dbErr) return cb(dbErr);
     cb(null, dbRes);
   });
@@ -23,7 +21,11 @@ const deleteChecklistItems = ({todoID=1}, cb) => {
     cb(null, dbRes);
   });
 };
+const addChecklistItem = ({ value, todoId = 1 }, cb) => {
+  const queryText = {
+    text: 'INSERT INTO checklist_item (value, checked, todo_id) VALUES ($1, false, $2);',
+    values: [value, todoId]}
 
 module.exports = {
-  getChecklistItems,deleteChecklistItems
+  getChecklistItems,deleteChecklistItems,addChecklistItem
 };

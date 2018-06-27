@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import Checklist from '../components/checklist';
 import getChecklistItems from '../actions/checklistActions';
 import deleteChecklistItems from '../actions/deleteChecklistAction';
+import addChecklistItem from '../actions/addChecklistAction';
 
 
 const mapStateToProps = state => ({
@@ -12,7 +13,9 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = {
-  getChecklistItems,deleteChecklistItems
+  deleteChecklistItems,
+  addChecklistItem,
+  getChecklistItems
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Checklist);

@@ -9,7 +9,6 @@ const getChecklistItemsInProgress = () => ({
 });
 
 const getChecklistItemsSuccess = data => ({
-  [console.log('mydataaaa', data)]:'a',
   type: GET_CHECKLIST_ITEMS_SUCC,
   isFetching: false,
   data
@@ -22,11 +21,10 @@ const getChecklistItemsFailure = data => ({
 });
 
 
-
 export default () => (dispatch) => {
   dispatch(getChecklistItemsInProgress());
   fetch('/checklist/items')
-    .then(response => {
+    .then((response) => {
       if (response.status >= 400) {
         throw new Error('Bad response from sarver');
       }

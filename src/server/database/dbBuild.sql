@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS  users, todos, checklist_item, users_carts, providers, shop_items, carts_items, providers_shop_items, calendar_item CASCADE;
+DROP TABLE IF EXISTS users, todos, checklist_item, users_carts, providers, shop_items, carts_items, providers_shop_items, calendar_item CASCADE;
 
 CREATE TABLE users (
 	id SERIAL PRIMARY KEY NOT NULL,
