@@ -48,5 +48,5 @@ module.exports = {
   devServer: {
     historyApiFallback: true
   },
-  watch: false
+  watch: true
 };
