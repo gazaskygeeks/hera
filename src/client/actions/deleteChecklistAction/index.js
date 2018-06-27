@@ -13,14 +13,13 @@ const deleteChecklistItemsSuccess = data => ({
 
 
 
-export default () => (dispatch) => {
-  fetch('/checklist/delete')
-    .then(response => {
-      if (response.status >= 400) {
-        throw new Error('Bad response from sarver');
-      }
-      return response.json();
-    }).then((response) => {
+export default ({
+  id
+}) => (dispatch) => {
+  console.log(id,'iiid in delete acttion');
+  axios
+    .get(`/checklist/delete`, { params: {id} })
+    .then((response) => {
       dispatch(deleteChecklistItemsSuccess(response));
     })
     .catch((err) => {
