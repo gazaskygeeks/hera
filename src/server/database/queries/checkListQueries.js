@@ -24,7 +24,7 @@ const deleteChecklistItems = ({todoID=1}, cb) => {
 const addChecklistItem = ({ value, todoId = 1 }, cb) => {
   const queryText = {
     text: 'INSERT INTO checklist_item (value, checked, todo_id) VALUES ($1, false, $2);',
-    values: [value, todoId]}
+    values: [value, todoId]}}
 
 module.exports = {
   getChecklistItems,deleteChecklistItems,addChecklistItem
