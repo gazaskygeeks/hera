@@ -27,7 +27,8 @@ module.exports = {
             options: {
               javascriptEnabled: true
             }
-          }]
+          }
+        ]
       },
       {
         test: /\.(png|jpg|gif|ico)$/,

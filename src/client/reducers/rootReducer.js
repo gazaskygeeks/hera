@@ -1,8 +1,11 @@
 import { combineReducers } from 'redux';
 
-// import sth from './allPatientsReducers/sth';
-import navbarReducer from './navbarReducer';
+// import navbarReducer from './navbarReducer';
+import dashboardReducers from './dashboardReducers';
+import generalStoreReducers from './generalStoreReducers/getItemsReducer';
 
 export default combineReducers({
-    navbarReducer
+  // navbarReducer,
+  dashboardReducers,
+  generalStoreReducers
 });
