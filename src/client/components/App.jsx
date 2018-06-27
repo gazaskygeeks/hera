@@ -6,7 +6,7 @@ import LandingPage from '../containers/landingPageContainer';
 import generalStore from '../containers/generalStoreContainer';
 import Dashboard from '../containers/dashboardContainer';
 import Tools from '../containers/tools';
-import Checklist from '../containers/checklist';
+import Checklist from '../containers/checklistContainer';
 import NotFoundPage from '../components/notFoundPage';
 import { Footer } from './global';
 
