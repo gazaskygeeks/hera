@@ -8,7 +8,6 @@ const selectUsersItems = ({
     values: [cartId]
   };
   dbConnection.query(queryText, (dbError, dbResponse) => {
-    console.log('dbError', dbError);
     if (dbError) return cb(dbError);
     cb(null, dbResponse);
   });

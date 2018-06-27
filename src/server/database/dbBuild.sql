@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS  users_carts, providers, shop_items, carts_items, providers_shop_items, calendar_item CASCADE;
+DROP TABLE IF EXISTS users, todos, checklist_item, users_carts, providers, shop_items, carts_items, providers_shop_items, calendar_item CASCADE;
 
 CREATE TABLE users (
 	id SERIAL PRIMARY KEY NOT NULL,
@@ -54,7 +54,7 @@ CREATE TABLE checklist_item (
 	id SERIAL PRIMARY KEY NOT NULL,
 	value VARCHAR NOT NULL,
 	checked bool NOT NULL DEFAULT 'false',
-  todos_id INTEGER REFERENCES todos (id) NOT NULL
+  todo_id INTEGER REFERENCES todos (id) NOT NULL
 );
 
 CREATE TABLE calendar_item (

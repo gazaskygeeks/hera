@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 
 import Checklist from '../components/checklist';
 import getChecklistItems from '../actions/checklistActions';
+import addChecklistItem from '../actions/addChecklistAction';
 
 
 const mapStateToProps = state => ({
@@ -10,6 +11,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = {
+  addChecklistItem,
   getChecklistItems
 };
 
