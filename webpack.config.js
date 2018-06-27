@@ -29,7 +29,6 @@ module.exports = {
             }
           }
         ]
-          }]
       },
       {
         test: /\.(png|jpg|gif|ico)$/,
@@ -49,5 +48,5 @@ module.exports = {
   devServer: {
     historyApiFallback: true
   },
-  watch: false
+  watch: true
 };

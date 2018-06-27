@@ -72,6 +72,7 @@ class GeneralStore extends Component {
     this.closeCard = this.closeCard.bind(this);
     this.filterChange = this.filterChange.bind(this);
     this._getItemsByFilter = this._getItemsByFilter.bind(this);
+    this._postAddToCart = this._postAddToCart.bind(this);
   }
 
   filterChange([label]) {
@@ -99,6 +100,12 @@ class GeneralStore extends Component {
 
   componentDidMount() {
     this._getItemsByFilter();
+  }
+
+  _postAddToCart() {
+    const { postAddToCart } = this.props;
+    const { id } = this.state.cardData;
+    postAddToCart({ id });
   }
 
   render() {
@@ -187,12 +194,12 @@ class GeneralStore extends Component {
                         <span>
                           {price_value}
                           {' '}
-·
+                          ·
                           {' '}
                           {price_currency}
                         </span>
                       </div>
-)}
+                      )}
                     description={description}
                   />
                 </Card>
@@ -208,7 +215,7 @@ class GeneralStore extends Component {
                   <Button key="back" onClick={this.closeCard}>
                     Return
                   </Button>,
-                  <Button key="submit" type="primary">
+                  <Button key="submit" type="primary" onClick={this._postAddToCart}>
                     Add to cart
                   </Button>,
                 ]}

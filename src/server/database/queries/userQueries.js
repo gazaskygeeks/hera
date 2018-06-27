@@ -11,6 +11,20 @@ const selectUser = ({ id }, cb) => {
   });
 };
 
+const getUserOnCartAccess = ({
+  userId, cartId
+}, cb) => {
+  const queryText = {
+    text: 'SELECT user_on_cart_access FROM users_carts WHERE id = $2 AND user_id = $1',
+    values: [userId, cartId]
+  };
+  dbConnection.query(queryText, (dbErr, dbRes) => {
+    if (dbErr) return cb(dbErr);
+    cb(null, dbRes);
+  });
+};
+
 module.exports = {
-  selectUser
+  selectUser,
+  getUserOnCartAccess
 };
