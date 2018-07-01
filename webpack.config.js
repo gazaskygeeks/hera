@@ -1,12 +1,28 @@
 const path = require('path');
+const webpack = require('webpack');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: './src/client/index.jsx',
-  mode: 'development',
+  mode: 'production',
   watch: false,
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public/')
+  },
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        test: /\.js($|\?)/i,
+        uglifyOptions: {
+          parallel: true,
+          warnings: false,
+          compress: {
+            warnings: false
+          }
+        }
+      })
+    ]
   },
   resolve: {
     extensions: ['.js', '.jsx']
@@ -31,23 +47,10 @@ module.exports = {
           }
         ]
       },
-      {
-        test: /\.(png|jpg|gif|ico)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[path][name].[ext]',
-              context: path.resolve(__dirname, 'src/client/')
-            }
-          }
-        ]
-      }
     ]
   },
   devtool: 'source-map',
   devServer: {
     historyApiFallback: true
-  },
-  watch: false
+  }
 };

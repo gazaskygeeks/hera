@@ -1,0 +1,43 @@
+@import "../../global/index.less";
+
+:global .ant-card {
+  text-align: center;
+  border-color: #FF6B98;
+  .globalTransition;
+  &:hover .ant-card-cover, &:hover .ant-card-meta-title {
+    color: @red-pink;
+    .globalTransition;
+  }
+  &:hover .ant-card-meta-title {
+    color: @red-pink;
+    font-size: 24px;
+    .globalTransition;
+  }
+  & :global .ant-card-cover {
+    font-size: 80px;
+  }
+  & :global .ant-card-meta-title {
+    font-size: 20px;
+    .globalTransition;
+  }
+}
+
+.tools {
+  &__body {
+    display: grid;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 300px);
+  }
+  &__smalltalk {
+
+  }
+}
+
+.qoute {
+  color: #ff6e9b;
+  margin: 0 auto;
+  font-size: 30px;
+  padding: 100px 0;
+  text-align: center;
+}

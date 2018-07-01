@@ -9,7 +9,7 @@ import addChecklistItem from '../actions/addChecklistAction';
 const mapStateToProps = state => ({
   isFetching: state.checklistItems.isFetching,
   data: state.checklistItems.data,
-  sucess:state.checklistItems.delete
+  sucess: state.checklistItems.delete
 });
 
 const mapDispatchToProps = {
